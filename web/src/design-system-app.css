@@ -149,6 +149,7 @@ h1 { font-size: 32px; letter-spacing: -.7px; }
 .bank-verified-stem { color: var(--1m-text)!important; }
 /* Keep original PDF pages white; they are source documents, not app surfaces. */
 .definition-source-window, .bank-source-window { border-color: var(--1m-line); }
+.points-table-wrap { position: relative; }
 .import-workflow { background: transparent; border: 0; }
 .import-step, .siwc-panel, .luna-candidates { background: var(--1m-surface); border-color: var(--1m-line); border-radius: 24px; }
 .import-step>span { display: inline-flex; padding: 5px 9px; border-radius: 999px; }
