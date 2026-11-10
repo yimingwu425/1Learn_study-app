@@ -1,0 +1,166 @@
+/* Study layout adapter for the shared 1mDesign 0.2 primitives. */
+:root { --im-sidebar-width: 216px; }
+.topbar { left: var(--im-sidebar-width); height: 72px; padding: 0 32px; background: var(--1m-workspace); border-color: var(--1m-line); backdrop-filter: none; }
+.breadcrumb { color: var(--1m-text-secondary); font-size: 13px; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.rail { height: auto; flex-direction: column; justify-content: flex-start; border-top: 0; border-right: 1px solid var(--1m-line); backdrop-filter: none; overflow-y: auto; inset: 0 auto 0 0; width: var(--im-sidebar-width); padding: 28px 14px 14px; gap: 6px; background: var(--1m-navigation-surface); border-color: var(--1m-line); align-items: stretch; z-index: 11; }
+.rail .brand { padding: 8px 10px 28px; gap: 10px; font-size: 19px; white-space: nowrap; }
+.rail .brand-icon { width: 38px; height: 38px; border-radius: 11px; }
+.rail .brand-name { display: flex; flex-direction: column; gap: 4px; }
+.rail .version { align-self: flex-start; font-size: 10px; background: transparent; color: var(--1m-text-secondary); padding: 0; }
+.rail button { flex-shrink: 0; width: 100%; height: 48px; flex-direction: row; justify-content: flex-start; gap: 14px; padding: 0 18px; border-radius: 999px; color: var(--1m-text-secondary); transition: background-color var(--1m-motion-feedback), border-radius var(--1m-motion-panel); }
+.rail button svg { width: 21px; height: 21px; flex-shrink: 0; }
+.rail button span { font-size: 14px; }
+.rail button:hover { color: var(--1m-text); background: var(--1m-surface-subtle); }
+.rail button.selected { color: var(--1m-on-accent-subtle); background: var(--1m-accent-subtle); font-weight: 650; }
+.rail button.selected::before { display: none; }
+.rail button:active { border-radius: 14px; }
+.rail-bottom { margin: auto 18px 12px; color: var(--1m-text-secondary); font-size: 12px; }
+.local-dot { background: var(--1m-success); }
+.main, .study-main { margin-left: var(--im-sidebar-width); padding: 108px 40px 40px; background: var(--1m-workspace); }
+.home, .library-page, .notes-page, .import-page, .study { max-width: 1280px; margin-inline: auto; }
+h1, h2, h3 { color: var(--1m-text); }
+h1 { font-size: 32px; letter-spacing: -.7px; }
+.eyebrow, .quiet, .count, .small-note, .q-meta, .q-source, .section-line span, .study-count, .source-footnote, .page-heading p, .study-heading p, .hero > p, .search-note { color: var(--1m-text-secondary); }
+.hero { padding: 30px 0 42px; }
+.hero h1 { font-size: 40px; letter-spacing: -1.2px; }
+.search-hero { height: 64px; border: 1px solid var(--1m-line); border-radius: 999px; background: var(--1m-surface); box-shadow: none; }
+.search-hero input { background: transparent; border: none; border-radius: 0; }
+.search-hero button { width: 44px; height: 44px; border-radius: 999px; color: var(--1m-on-accent); background: var(--1m-accent); transition: border-radius var(--1m-motion-panel), background-color var(--1m-motion-feedback); }
+.search-hero button:hover { background: var(--1m-accent-hover); }
+.search-hero button:active { background: var(--1m-accent-pressed); border-radius: 12px; }
+.search-hero > svg, .quick-actions button { color: var(--1m-text-secondary); }
+.quick-actions button { min-height: 40px; }
+.continue { min-height: 240px; padding: 32px 38px; border-radius: 28px; border: 0; background: var(--1m-surface); }
+.continue p { color: var(--1m-text-secondary); }
+.continue .primary { min-height: 44px; margin-top: 24px; border-radius: 999px; padding: 10px 20px; font-size: 14px; }
+.continue .primary:active { border-radius: 12px; }
+.continue-art .floating { color: var(--1m-text-secondary); }
+.home-bank-links { gap: 12px; }
+.home-bank-links button { background: var(--1m-surface); border: none; border-radius: 20px; color: var(--1m-text); }
+.home-bank-links button svg { color: var(--1m-accent); }
+.home-bank-links button span, .recent-list em { color: var(--1m-text-secondary); }
+.section-line { margin: 28px 0 16px; }
+.page-heading { margin: 10px 0 28px; gap: 20px; }
+.filter-bar { border: none; gap: 12px; flex-wrap: wrap; }
+.filter-bar select, .filter-bar .search-inline { min-height: 44px; background-color: var(--1m-surface); border-color: var(--1m-control-border); color: var(--1m-text); }
+.search-inline input { border: 0; background: transparent; }
+.bank-advanced, .paper-basket, .bank-question, .definition-card, .compose-form, .coverage-view, .source-preview, .source-preview-panel { background: var(--1m-surface); border-color: var(--1m-line); }
+.bank-advanced, .paper-basket { border-radius: 24px; }
+.bank-result-count, .bank-filter-grid label, .bank-filter-checks, .bank-advanced > p, .basket-total, .semantic-note, .basket-heading p, .paper-basket label { color: var(--1m-text-secondary); }
+.bank-question { margin-bottom: 10px; border-radius: 20px; overflow: hidden; }
+.question-row { padding: 22px; border: none; }
+.question-row:hover { background: var(--1m-surface-subtle); }
+.q-number { background: var(--1m-accent-subtle); color: var(--1m-on-accent-subtle); border-radius: 50%; width: 44px; height: 44px; }
+.question-row p, .question-row h3, .basket-open-question strong { color: var(--1m-text); }
+.basket-add { background: var(--1m-surface-subtle); color: var(--1m-text-secondary); border-color: var(--1m-line); border-radius: 999px; }
+.basket-add.added { background: var(--1m-accent-subtle); color: var(--1m-on-accent-subtle); }
+.study-heading { margin: 4px 0 28px; gap: 24px; }
+.study-heading h1 { font-size: 30px; margin-top: 12px; }
+.study-heading p { font-size: 13px; line-height: 1.7; }
+.back-link { min-height: 32px; }
+.study-grid { grid-template-columns: minmax(0, 1fr) 280px; gap: 28px; min-height: 460px; align-items: start; }
+.question-sheet { padding: 26px 30px 22px; background: var(--1m-surface); border-radius: 28px; min-height: 460px; }
+.im-question-heading { display: flex; align-items: center; gap: 12px; margin-bottom: 26px; }
+.im-question-heading .q-number { font-size: 13px; font-weight: 650; flex-shrink: 0; }
+.im-question-heading strong { font-size: 16px; }
+.im-question-heading small { margin-left: auto; color: var(--1m-text-secondary); white-space: nowrap; }
+.question-text { color: var(--1m-text); font-size: 18px; line-height: 1.85; }
+.circuit { margin-top: 32px; max-height: 290px; }
+.circuit text { fill: var(--1m-text); font-family: var(--1m-font-ui); font-size: 21px; font-style: normal; }
+.circuit path { stroke: var(--1m-text); }
+.circuit circle { fill: var(--1m-accent); }
+.circuit stop { stop-color: var(--1m-accent-subtle); }
+.source-footnote { margin-top: 24px; font-size: 11px; line-height: 1.8; }
+.guide { margin: 0; padding: 10px 0; border: 0; display: block; }
+.guide-content { margin-top: 6px; }
+.guide .eyebrow { color: var(--1m-text-secondary); }
+.guide h2 { font-size: 24px; line-height: 1.5; }
+.guide p, .guide p.explanation { font-size: 15px; line-height: 1.9; color: var(--1m-text-secondary); }
+.guide .text-button { margin-top: 20px; color: var(--1m-accent); min-height: 40px; }
+.hint-count { color: var(--1m-text-secondary); }
+.study-footer { margin-top: 24px; padding: 0; gap: 16px; }
+.study-footer > .primary { min-height: 50px; padding-inline: 26px; }
+.floating-toolbar { padding: 0; border: none; gap: 8px; box-shadow: none; background: transparent; }
+.floating-toolbar button { min-height: 42px; padding: 10px 16px; background: var(--1m-surface-subtle); border-radius: 999px; color: var(--1m-text); font-size: 13px; }
+.floating-toolbar button:hover { background: var(--1m-accent-subtle); color: var(--1m-on-accent-subtle); }
+.floating-toolbar i { display: none; }
+.original-header, .original-page .quiet, .source-text summary { color: var(--1m-text-secondary); }
+.notes-list article, .recognition-card, .agent-connection, .dropzone, .imports-list > button, .chosen-files, .import-workflow { background: var(--1m-surface); border-color: var(--1m-line); border-radius: 24px; }
+.notes-list p, .self-tag, .dropzone p, .recognition-card p, .import-step p, .agent-connection p, .imports-list p { color: var(--1m-text-secondary); }
+.agent-tag, .job-status, .import-step > span { background: var(--1m-accent-subtle); color: var(--1m-on-accent-subtle); }
+.modal-shade { background: color-mix(in srgb, var(--1m-canvas) 65%, #000 35%); }
+.modal, .review-modal { background: var(--1m-surface); color: var(--1m-text); border-radius: 28px; box-shadow: 0 24px 80px #0002; }
+.modal p, .modal .eyebrow, .field-label, .candidate-fields label { color: var(--1m-text-secondary); }
+.modal textarea, .modal input, .modal select { background: var(--1m-inset); color: var(--1m-text); border-color: var(--1m-control-border); }
+.assessment button { background: var(--1m-surface-subtle); color: var(--1m-text); border-color: var(--1m-line); border-radius: 16px; }
+.assessment button:hover:not(:disabled) { background: var(--1m-accent-subtle); color: var(--1m-on-accent-subtle); }
+.connection, .warning { background: var(--1m-warning-subtle); color: var(--1m-warning); border-color: var(--1m-warning); border-radius: 14px; }
+.toast { background: var(--1m-text); color: var(--1m-canvas); border-radius: 999px; }
+.empty, .empty p { color: var(--1m-text-secondary); }
+@media (max-width: 1200px) {
+ :root { --im-sidebar-width: 190px; }
+ .rail { padding-inline: 10px; }
+ .rail .brand { font-size: 17px; padding-inline: 8px; }
+ .main, .study-main { padding-inline: 28px; }
+ .study-grid { grid-template-columns: minmax(0, 1fr) 230px; gap: 20px; }
+ .question-sheet { padding: 24px; }
+ .study-heading { flex-wrap: wrap; gap: 20px; }
+ .study-count { display: none; }
+}
+@media (max-width: 900px) {
+ :root { --im-sidebar-width: 84px; }
+ .rail { padding: 20px 8px 12px; align-items: center; }
+ .rail .brand { padding: 0 0 20px; }
+ .rail .brand-name { display: none; }
+ .rail button { width: 64px; height: 62px; flex-direction: column; justify-content: center; gap: 5px; padding: 5px; border-radius: 20px; }
+ .rail button span { font-size: 10px; }
+ .rail-bottom { margin: auto 0 8px; font-size: 10px; }
+ .topbar { padding-inline: 24px; }
+ .study-grid { grid-template-columns: minmax(0, 1fr); }
+ .guide { display: flex; gap: 20px; align-items: flex-start; }
+ .guide-content { flex: 1; min-width: 0; }
+ .question-sheet { min-height: 0; }
+ .study-footer { flex-wrap: wrap; }
+ .floating-toolbar { width: auto; order: 0; }
+ .study-footer > .primary { margin-left: auto; }
+}
+@media (max-width: 600px) {
+ :root { --im-sidebar-width: 64px; }
+ .rail { padding-inline: 4px; }
+ .rail button { width: 54px; height: 58px; gap: 4px; }
+ .rail .brand-icon { width: 34px; height: 34px; }
+ .rail button span { font-size: 9px; }
+ .topbar { height: 64px; padding-inline: 14px; }
+ .breadcrumb { display: none; }
+ .im-top-actions { width: 100%; justify-content: space-between; gap: 8px; }
+ .im-theme-control > span { display: none; }
+ .im-theme-control select { padding-left: 10px; }
+ .top-action { font-size: 12px; padding: 8px 12px; gap: 6px; }
+ .main, .study-main { padding: 88px 16px 28px; }
+ .hero { padding: 12px 0 28px; }
+ .hero h1 { font-size: 27px; letter-spacing: -.7px; }
+ .search-hero { height: 56px; padding: 6px 6px 6px 14px; gap: 8px; }
+ .search-hero input { font-size: 13px; }
+ .quick-actions { flex-direction: column; gap: 4px; align-items: center; margin-top: 14px; }
+ .continue { padding: 24px 20px; display: block; }
+ .continue h2 { font-size: 23px; }
+ .continue-art { margin: 20px auto 0; max-width: 100%; min-height: 150px; }
+ .home-bank-links { grid-template-columns: 1fr; }
+ .page-heading h1, .study-heading h1 { font-size: 26px; }
+ .page-heading { flex-wrap: wrap; }
+ .study-heading { margin-bottom: 22px; }
+ .segmented { width: 100%; }
+ .segmented button { flex: 1; min-width: 0; padding: 10px 12px; }
+ .question-sheet { padding: 20px; border-radius: 24px; }
+ .im-question-heading { margin-bottom: 20px; gap: 10px; }
+ .im-question-heading strong { font-size: 14px; }
+ .question-text { font-size: 15px; }
+ .guide { gap: 12px; margin-top: 0; padding-top: 8px; }
+ .guide h2 { font-size: 21px; }
+ .floating-toolbar { width: 100%; gap: 6px; flex-wrap: wrap; }
+ .floating-toolbar button { flex: 1; padding: 9px 10px; font-size: 11px; }
+ .study-footer > .primary { width: 100%; margin-left: 0; }
+ .filter-bar > select, .filter-bar > .search-inline { width: 100%; flex: auto; }
+ .modal { padding: 24px; }
+}
+@media print { .main, .study-main { margin: 0; padding: 0; background: white; } }
