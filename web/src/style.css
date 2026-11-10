@@ -56,3 +56,6 @@
  .floating-toolbar{padding:9px 5px}
  .floating-toolbar button{flex:1;padding:9px 6px;font-size:12px;gap:6px;justify-content:center}
 }
+
+/* Approved desktop identity; intrinsic size prevents layout shift. */
+.brand-icon{display:block;width:32px;height:32px;object-fit:contain;flex:0 0 32px}

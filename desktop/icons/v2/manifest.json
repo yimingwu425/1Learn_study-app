@@ -1,0 +1,19 @@
+{
+  "version": "2026-11-10-approved-v2",
+  "source": "User-approved icon design; source-approved.png retained unchanged.",
+  "normalization": "Lanczos size variants; alpha 0 or 1 becomes 0, alpha 254 or 255 becomes 255. No artwork changes.",
+  "sha256": {
+    "1024x1024.png": "0f1c6d3c364525f4c425093d2094819c0c14e17ea9469b3ebe0480e63dded9cd",
+    "128x128.png": "2624750d8b9f10b8fb77ae93dcf6dcc7055bdebbcdb778f0115af1702fc8e5cc",
+    "128x128@2x.png": "77adbd11efb24b5baeeece7f55f524fd362896f5b558c7ea780f2dc80d421cbf",
+    "16x16.png": "2a49a6347469fd7115e42f9f5d89b3c0af9b627bbe4a0ad3e7b07f7feaeead4f",
+    "256x256.png": "77adbd11efb24b5baeeece7f55f524fd362896f5b558c7ea780f2dc80d421cbf",
+    "32x32.png": "6653c5bac993205b7ab1d12b650c519ef8257a3956d3d794a73e484be8e84bcd",
+    "512x512.png": "f0323e5f4346b0111c7b1357838795680608c79eb0881ffa1c670d88328d0dec",
+    "64x64.png": "8aa0f57f89166f5d03f138dd9bcb11e54218faba8af2574b07276ee59c633d35",
+    "icon.icns": "f1f595317a28f1a6f2603e9d4728db7eb0feb1affae0add8f2a8691e50bbc3e3",
+    "icon.ico": "4fe1363fe6aa6e8b2b42afb7b8d4cf35400b6a2ec2eadee87f496dbab94320e0",
+    "icon.png": "0f1c6d3c364525f4c425093d2094819c0c14e17ea9469b3ebe0480e63dded9cd",
+    "source-approved.png": "cbe0204fc47d7fc779f15c30943fd81b869845762d9fbcf13e899be6d33aac9b"
+  }
+}

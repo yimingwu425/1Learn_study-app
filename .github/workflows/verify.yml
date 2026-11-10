@@ -36,5 +36,8 @@ jobs:
           echo 'a5b2967d057a12091f8ddaf5e247a608b16628ee0c9752c9c1fac286107dc238  .toolchain/pdfcraft-cli/linux.tar.gz' | sha256sum -c -
           tar -xzf .toolchain/pdfcraft-cli/linux.tar.gz -C .toolchain/pdfcraft-cli
           echo "STUDY_PDFCRAFT_BIN=$GITHUB_WORKSPACE/.toolchain/pdfcraft-cli/pdfcraft-cli-0.20.0-linux-x86_64/pdfcraft-cli" >> "$GITHUB_ENV"
+      - name: Validate native and web icon resources
+        run: python3 scripts/app-icons.py --check
       - name: Run isolated regressions and production build
         run: ./scripts/test-all.sh
+
