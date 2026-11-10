@@ -3,17 +3,17 @@
   "source": "User-approved icon design; source-approved.png retained unchanged.",
   "normalization": "Lanczos size variants; alpha 0 or 1 becomes 0, alpha 254 or 255 becomes 255. No artwork changes.",
   "sha256": {
-    "1024x1024.png": "0f1c6d3c364525f4c425093d2094819c0c14e17ea9469b3ebe0480e63dded9cd",
-    "128x128.png": "2624750d8b9f10b8fb77ae93dcf6dcc7055bdebbcdb778f0115af1702fc8e5cc",
-    "128x128@2x.png": "77adbd11efb24b5baeeece7f55f524fd362896f5b558c7ea780f2dc80d421cbf",
-    "16x16.png": "2a49a6347469fd7115e42f9f5d89b3c0af9b627bbe4a0ad3e7b07f7feaeead4f",
-    "256x256.png": "77adbd11efb24b5baeeece7f55f524fd362896f5b558c7ea780f2dc80d421cbf",
-    "32x32.png": "6653c5bac993205b7ab1d12b650c519ef8257a3956d3d794a73e484be8e84bcd",
-    "512x512.png": "f0323e5f4346b0111c7b1357838795680608c79eb0881ffa1c670d88328d0dec",
-    "64x64.png": "8aa0f57f89166f5d03f138dd9bcb11e54218faba8af2574b07276ee59c633d35",
-    "icon.icns": "f1f595317a28f1a6f2603e9d4728db7eb0feb1affae0add8f2a8691e50bbc3e3",
-    "icon.ico": "4fe1363fe6aa6e8b2b42afb7b8d4cf35400b6a2ec2eadee87f496dbab94320e0",
-    "icon.png": "0f1c6d3c364525f4c425093d2094819c0c14e17ea9469b3ebe0480e63dded9cd",
+    "1024x1024.png": "1375b6381d4a7acd81069b2495747ab5402f830dc9cea8e02dcaddfbbae7dac5",
+    "128x128.png": "214e2862e582b67044622b050ef3b864d7922a8af6ca2dcc3f7c796fe6619e0b",
+    "128x128@2x.png": "109ccb5aabfbe458663c5ed852de676404817fd8f6850dce34f73e24879c73e8",
+    "16x16.png": "474340331a613fcd1f057f7b1ad723c4a4974ed0d1af40f2fb8047164a3019bf",
+    "256x256.png": "109ccb5aabfbe458663c5ed852de676404817fd8f6850dce34f73e24879c73e8",
+    "32x32.png": "3b8e34bd2c32bffdf66896fc8e2690ee5b7611371486322907d330fa5a42f769",
+    "512x512.png": "a2e075d63ed670bd03808d33fbbc56d53f1eae08596a4b08987279a0d653802f",
+    "64x64.png": "6cf84207d45741e4bd3fd4e0992dc0ab0fba5133d0e4cc2eb515586a1e569874",
+    "icon.icns": "f68504be0a83f6e7370491430df1561bea980a98a1f75ebffc29530ae4c99d85",
+    "icon.ico": "e1d5a7923c89c36cd87af427dff1f2a49f9ff756e73230ec6bbf539ff40fcb59",
+    "icon.png": "1375b6381d4a7acd81069b2495747ab5402f830dc9cea8e02dcaddfbbae7dac5",
     "source-approved.png": "cbe0204fc47d7fc779f15c30943fd81b869845762d9fbcf13e899be6d33aac9b"
   }
 }
