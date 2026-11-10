@@ -97,6 +97,72 @@ h1 { font-size: 32px; letter-spacing: -.7px; }
 .connection, .warning { background: var(--1m-warning-subtle); color: var(--1m-warning); border-color: var(--1m-warning); border-radius: 14px; }
 .toast { background: var(--1m-text); color: var(--1m-canvas); border-radius: 999px; }
 .empty, .empty p { color: var(--1m-text-secondary); }
+/* Secondary workspaces use the same surfaces in light and dark themes. */
+.definition-filters, .definition-sidebar, .analysis-ranking, .analysis-view .chapter-card { background: var(--1m-surface); border-color: var(--1m-line); border-radius: 24px; }
+.definition-answer, .definition-original-text, .definition-verbatim p, .stat-basis, .composition-edit details[open], .semantic-note { background: var(--1m-inset); border-color: var(--1m-line); }
+.tools-filters select, .tools-filters input, .compose-form select, .compose-form input, .point-search,
+.definition-filters input, .definition-filters select, .definition-evidence select,
+.bank-filter-grid input, .bank-filter-grid select, .paper-basket input, .paper-basket select { background-color: var(--1m-inset); color: var(--1m-text); border-color: var(--1m-control-border); }
+.tools-filters label, .compose-form label, .compose-form small, .compose-form details,
+.bank-metrics span, .bank-metrics small, .chapter-card p, .chapter-card>div:first-child,
+.analysis-view .chapter-card .chapter-caption, .analysis-view .chapter-card .chapter-translation,
+.points-table th, .points-table td, .points-table td:first-child small,
+.analysis-view .points-table th small, .analysis-view .points-table .point-translation,
+.ranking-heading p, .analysis-ranking small, .analysis-ranking li div>span,
+.ranking-position, .chapter-number, .table-pagination, .analysis-view .stat-basis,
+.tools-placeholder, .syllabus-provenance, .syllabus-provenance p,
+.compose-welcome, .compose-welcome p, .compose-welcome>div, .compose-result-top p,
+.compose-question-list p, .compose-question-list small, .compose-index, .composition-edit details, .compose-allocation,
+.definition-filters label, .definition-evidence>label, .definition-sample,
+.definition-chapter, .definition-card h3, .definition-count>span, .definition-answer-label,
+.definition-translation, .definition-answer-note, .definition-card-footer, .definition-origin,
+.definition-verbatim, .definition-evidence-tabs, .definition-source>div:first-child,
+.definition-sidebar>p, .definition-sidebar>button>span, .definition-sidebar small,
+.definition-sidebar h3, .definition-year-bars>div, .definition-scope, .definition-empty p,
+.basket-open-question span, .paper-basket li>div, .bank-source-caption { color: var(--1m-text-secondary); }
+.analysis-intro-en { color: var(--1m-text-secondary)!important; }
+.bank-metrics strong, .analysis-view .chapter-card h3, .points-table td:first-child strong,
+.analysis-view .points-table td:first-child strong, .ranking-heading h2, .analysis-ranking strong,
+.compose-welcome h2, .definition-sample strong, .definition-card h2, .definition-recitation,
+.definition-original-text, .definition-verbatim p, .definition-sidebar h2,
+.definition-sidebar strong, .definition-empty h2, .basket-heading h2 { color: var(--1m-text); }
+.definition-count>strong, .definition-answer-label button, .definition-sidebar>button>b,
+.chapter-card strong, .point-percent, .syllabus-provenance a, .basket-toggle strong { color: var(--1m-accent); }
+.analysis-view .chapter-card.active { background: var(--1m-accent-subtle); border-color: var(--1m-focus); }
+.chapter-track { background: var(--1m-surface-subtle); }
+.chapter-track span, .definition-year-bars i, .source-focus-marker { background: var(--1m-accent); }
+.ranking-tabs { background: var(--1m-inset); border-radius: 999px; }
+.ranking-tabs button { color: var(--1m-text-secondary); border-radius: 999px; }
+.ranking-tabs button.active { background: var(--1m-accent-subtle); color: var(--1m-on-accent-subtle); box-shadow: none; }
+.definition-evidence-tabs button.on { color: var(--1m-accent); border-color: var(--1m-accent); }
+.points-table th, .points-table td, .analysis-ranking li, .definition-evidence,
+.definition-sidebar>button, .compose-allocation td, .compose-allocation th, .paper-basket li { border-color: var(--1m-line); }
+.definition-error { background: var(--1m-danger-subtle); color: var(--1m-danger); }
+.definition-caveat { color: var(--1m-warning); }
+.definition-reveal { color: var(--1m-on-accent-subtle); }
+.compose-error, .compose-warnings { background: var(--1m-warning-subtle); color: var(--1m-warning); }
+.basket-saved { color: var(--1m-success); }
+.source-viewer, .source-viewer-toolbar { background: var(--1m-inset); border-color: var(--1m-line); color: var(--1m-text-secondary); }
+.source-text .question-text, .source-fallback, .bank-source-loading, .bank-source-unavailable { color: var(--1m-text-secondary); }
+.bank-source-loading, .bank-source-unavailable { background: var(--1m-inset); }
+.bank-source-note { color: var(--1m-text-secondary)!important; }
+.bank-verified-stem { color: var(--1m-text)!important; }
+/* Keep original PDF pages white; they are source documents, not app surfaces. */
+.definition-source-window, .bank-source-window { border-color: var(--1m-line); }
+.import-workflow { background: transparent; border: 0; }
+.import-step, .siwc-panel, .luna-candidates { background: var(--1m-surface); border-color: var(--1m-line); border-radius: 24px; }
+.import-step>span { display: inline-flex; padding: 5px 9px; border-radius: 999px; }
+.siwc-heading p, .siwc-panel p, .luna-job p, .siwc-consent>label, .siwc-check,
+.siwc-actions label, .luna-page-grid label, .luna-filter, .imports-list strong { color: var(--1m-text-secondary); }
+.siwc-state, .siwc-pending, .siwc-welcome { background: var(--1m-accent-subtle); color: var(--1m-on-accent-subtle); }
+.siwc-consent, .luna-job, .luna-candidates article { border-color: var(--1m-line); }
+.siwc-actions select, .luna-page-grid input, .luna-filter input { background-color: var(--1m-inset); color: var(--1m-text); border-color: var(--1m-control-border); }
+.siwc-login { background: var(--1m-surface-subtle); color: var(--1m-text); border-color: var(--1m-control-border); border-radius: 999px; }
+.siwc-login:hover:not(:disabled) { background: var(--1m-accent-subtle); color: var(--1m-on-accent-subtle); }
+.siwc-login:disabled { opacity: 1; background: var(--1m-disabled-surface); color: var(--1m-disabled-text); }
+.siwc-panel .siwc-error, .luna-job .siwc-error { background: var(--1m-danger-subtle); color: var(--1m-danger); }
+.siwc-message { color: var(--1m-on-accent-subtle)!important; }
+.luna-job summary { color: var(--1m-accent); }
 @media (max-width: 1200px) {
  :root { --im-sidebar-width: 190px; }
  .rail { padding-inline: 10px; }

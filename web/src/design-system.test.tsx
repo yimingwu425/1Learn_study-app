@@ -4,7 +4,10 @@ import {afterEach, expect, test, vi} from 'vitest';
 import {cleanup, fireEvent, render, screen} from '@testing-library/react';
 import {App} from './main';
 afterEach(()=>{cleanup();localStorage.clear();document.documentElement.removeAttribute('data-theme');vi.unstubAllGlobals()});
-function fixture(){vi.stubGlobal('fetch',vi.fn(async (url:string)=>({ok:true,json:async()=>url.includes('study-memory')?{memory:{questions:{}}}:url.includes('questions')?{questions:[],total:0}:url.includes('attempts')?{attempts:[]}:url.includes('basket')?{questions:[]}:url.includes('recognition/jobs')?{jobs:[]}:url.includes('recognition/status')?{provider_configured:false}:{imports:[]}})))}
+function fixture(){vi.stubGlobal('fetch',vi.fn(async (url:string)=>{
+ if(/\/api\/(coverage|definitions|compositions)/.test(url))return {ok:false,text:async()=>JSON.stringify({error:'QA isolated service unavailable'})};
+ return {ok:true,json:async()=>url.includes('study-memory')?{memory:{questions:{}}}:url.includes('questions')?{questions:[],total:0}:url.includes('attempts')?{attempts:[]}:url.includes('basket')?{questions:[]}:url.includes('recognition/jobs')?{jobs:[]}:url.includes('recognition/status')?{provider_configured:false}:{imports:[]}};
+ }))}
 test('1mDesign retains identity and selected navigation through the real practice flow',async()=>{
  fixture();render(<App/>);
  expect(screen.getByText('真题学习')).toBeTruthy();
@@ -25,4 +28,23 @@ test('1mDesign retains identity and selected navigation through the real practic
  expect(screen.getByRole('button',{name:'提示'}).getAttribute('aria-pressed')).toBe('true');
  fireEvent.click(screen.getByRole('button',{name:'返回真题'}));
  expect(screen.getByRole('heading',{name:'挑一道，开始学。'})).toBeTruthy();
+});
+test('secondary navigation retains theme and recovers from unavailable services',async()=>{
+ fixture();render(<App/>);
+ fireEvent.change(screen.getByRole('combobox',{name:'外观'}),{target:{value:'dark'}});
+ for(const name of ['题库分析','定义库','组卷','我的资料','导入题目','真题','定义库']){
+  fireEvent.click(screen.getByRole('button',{name}));
+  expect(screen.getByRole('button',{name}).getAttribute('aria-current')).toBe('page');
+  expect(document.documentElement.dataset.theme).toBe('dark');
+  expect(screen.getAllByRole('heading',{level:1})).toHaveLength(1);
+ }
+ expect(await screen.findByText('QA isolated service unavailable')).toBeTruthy();
+ fireEvent.change(screen.getByRole('combobox',{name:'外观'}),{target:{value:'light'}});
+ expect(document.documentElement.dataset.theme).toBe('light');
+ fireEvent.click(screen.getByRole('button',{name:'组卷'}));
+ fireEvent.click(screen.getByRole('button',{name:'生成选题方案'}));
+ expect(await screen.findByText('QA isolated service unavailable')).toBeTruthy();
+ expect(screen.getByRole('button',{name:'生成选题方案'}).hasAttribute('disabled')).toBe(false);
+ fireEvent.click(screen.getByRole('button',{name:'学习'}));
+ expect(await screen.findByRole('button',{name:'体验学习桌'})).toBeTruthy();
 });
