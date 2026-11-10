@@ -1,7 +1,7 @@
 // @vitest-environment jsdom
 import React from 'react';
 import {test,expect,vi,afterEach} from 'vitest';
-import {render,screen,fireEvent,cleanup,waitFor} from '@testing-library/react';
+import {act,render,screen,fireEvent,cleanup,waitFor} from '@testing-library/react';
 import {App} from './main';
 afterEach(()=>{cleanup();localStorage.clear();vi.unstubAllGlobals()});
 test('empty real library does not invent records; demo is explicit',async()=>{
@@ -122,4 +122,23 @@ test('home omits the removed slogans without substituting new copy',async()=>{
  expect(document.querySelector('.search-note')).toBeNull();
  expect(screen.getByRole('img',{name:'小蓝'})).toBeTruthy();
  expect(document.querySelector('.mark-orbit')).toBeNull();
+});
+
+test('opening a question before draft hydration does not replace its unseen note with an empty draft',async()=>{
+ const q={id:'q-late',title:'Late notes',text:'Question',subject:'9702',kind:'real'};
+ let finish!:(value:unknown)=>void;
+ const calls:{url:string;options?:RequestInit}[]=[];
+ vi.stubGlobal('fetch',vi.fn(async(url:string,options?:RequestInit)=>{
+  calls.push({url,options});
+  if(url==='/api/study-memory'&&!options?.method)return {ok:true,json:()=>new Promise(resolve=>{finish=resolve})};
+  return {ok:true,json:async()=>url.includes('questions')?{questions:[q],total:1}:url.includes('attempts')?{attempts:[]}:url.includes('imports')?{imports:[]}:{saved:true}};
+ }));
+ render(<App/>);
+ fireEvent.click(await screen.findByRole('button',{name:'打开第一道真题'}));
+ fireEvent.click(screen.getByRole('button',{name:'记笔记'}));
+ finish({memory:{lastId:q.id,questions:{[q.id]:{mode:'self',hint:0,draft:'Previously saved note'}}}});
+ await waitFor(()=>expect((screen.getByRole('textbox',{name:'我的笔记'}) as HTMLTextAreaElement).value).toBe('Previously saved note'));
+ await act(()=>new Promise(resolve=>setTimeout(resolve,380)));
+ const writes=calls.filter(c=>c.url==='/api/study-memory'&&c.options?.method==='PUT').map(c=>JSON.parse(c.options!.body as string));
+ expect(writes.every(w=>!w.questions[q.id]||w.questions[q.id].draft==='Previously saved note')).toBe(true);
 });

@@ -1,0 +1,40 @@
+name: Verify source-only study app
+on:
+  push:
+    branches: [main, 'cloud-review-*']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test dependencies
+        run: |
+          rustup update stable --no-self-update
+          rustup default stable
+          python -m pip install -r requirements.txt
+          npm --prefix web ci
+      - name: Install verified official PDF engine
+        run: |
+          mkdir -p .toolchain/pdfcraft-cli
+          curl -fL --retry 2 https://github.com/storytold/pdfcraft/releases/download/v0.20.0/pdfcraft-cli-0.20.0-linux-x86_64.tar.gz -o .toolchain/pdfcraft-cli/linux.tar.gz
+          echo 'a5b2967d057a12091f8ddaf5e247a608b16628ee0c9752c9c1fac286107dc238  .toolchain/pdfcraft-cli/linux.tar.gz' | sha256sum -c -
+          tar -xzf .toolchain/pdfcraft-cli/linux.tar.gz -C .toolchain/pdfcraft-cli
+          echo "STUDY_PDFCRAFT_BIN=$GITHUB_WORKSPACE/.toolchain/pdfcraft-cli/pdfcraft-cli-0.20.0-linux-x86_64/pdfcraft-cli" >> "$GITHUB_ENV"
+      - name: Run isolated regressions and production build
+        run: ./scripts/test-all.sh

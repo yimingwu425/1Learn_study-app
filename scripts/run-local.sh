@@ -7,7 +7,9 @@ elif [[ -x "$ROOT/.toolchain/cargo/bin/cargo" ]]; then
   export CARGO_HOME="$ROOT/.toolchain/cargo" RUSTUP_HOME="$ROOT/.toolchain/rustup"
   CARGO="$CARGO_HOME/bin/cargo"
 else echo 'Rust 未安装。请从 https://rustup.rs 安装后再运行。' >&2; exit 1; fi
-[[ -x "$ROOT/.toolchain/pdfcraft-cli/bin/pdfcraft-cli-0.20.0-macos-universal/pdfcraft-cli" ]] || { echo 'Project-local official PdfCraft engine is missing.' >&2; exit 1; }
+PDFCRAFT="${STUDY_PDFCRAFT_BIN:-$ROOT/.toolchain/pdfcraft-cli/bin/pdfcraft-cli-0.20.0-macos-universal/pdfcraft-cli}"
+[[ -x "$PDFCRAFT" ]] || { echo 'PDF 引擎尚未就绪。请将 STUDY_PDFCRAFT_BIN 指向已安装的官方 PdfCraft CLI 0.20.0。' >&2; exit 1; }
+export STUDY_PDFCRAFT_BIN="$PDFCRAFT"
 if [[ ! -d web/node_modules ]]; then npm --prefix web ci --cache "${TMPDIR:-/tmp}/study-npm"; fi
 npm --prefix web run build
 "$CARGO" build --manifest-path server/Cargo.toml

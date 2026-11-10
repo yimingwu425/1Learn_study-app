@@ -476,30 +476,39 @@ async fn real_pdf_preview_and_proposal_submission_keep_the_independent_review_ga
         .parent()
         .unwrap();
     let source = "d81f4af8-192f-5d5a-887a-918d79f09ffd";
-    let path = root.join("data/files").join(format!("{source}.pdf"));
-    let original = std::fs::read(&path).unwrap();
-    let sha = format!("{:x}", Sha256::digest(&original));
     std::fs::create_dir_all(f.dir.path().join("files")).unwrap();
-    std::fs::write(
-        f.dir.path().join("files").join(format!("{source}.pdf")),
-        &original,
-    )
-    .unwrap();
     let db = Connection::open_in_memory().unwrap();
     init_db(&db).unwrap();
-    let id = uuid::Uuid::new_v4().to_string();
-    let job = json!({"id":id,"status":"awaiting_agent","sources":[{"id":source,"sha256":sha,"pages":20,"role_hint":"qp","filename":"9702_w23_12.pdf"}],"published_count":0});
-    db.execute(
-        "INSERT INTO recognition_jobs VALUES(?1,?2,?3)",
-        params![id, "synthetic-fingerprint", job.to_string()],
-    )
-    .unwrap();
     let app = App {
         db: Arc::new(Mutex::new(db)),
         data: f.dir.path().into(),
         root: root.into(),
         siwc: f.service.clone(),
     };
+    let path = f.dir.path().join("files").join(format!("{source}.pdf"));
+    let pages: Vec<_> = (1..=20)
+        .map(|page| {
+            vec![crate::pdf_document::text(
+                48.,
+                72.,
+                12.,
+                format!("Synthetic exam page {page}: 31 Calculate the current."),
+            )]
+        })
+        .collect();
+    crate::pdf_document::write_text_pdf(&app, &path, "Synthetic exam fixture", &pages).unwrap();
+    let original = std::fs::read(&path).unwrap();
+    let sha = format!("{:x}", Sha256::digest(&original));
+    let id = uuid::Uuid::new_v4().to_string();
+    let job = json!({"id":id,"status":"awaiting_agent","sources":[{"id":source,"sha256":sha,"pages":20,"role_hint":"qp","filename":"9702_w23_12.pdf"}],"published_count":0});
+    app.db
+        .lock()
+        .unwrap()
+        .execute(
+            "INSERT INTO recognition_jobs VALUES(?1,?2,?3)",
+            params![id, "synthetic-fingerprint", job.to_string()],
+        )
+        .unwrap();
     let listener = tokio::net::TcpListener::bind("127.0.0.1:0").await.unwrap();
     let base = format!("http://{}", listener.local_addr().unwrap());
     let router = crate::luna::routes()

@@ -25,12 +25,50 @@ pub async fn save_memory(
     if !value["questions"].is_object() {
         return Err(bad("学习草稿格式无效"));
     }
-    let raw = serde_json::to_string(&value).map_err(internal)?;
+    // Read and merge under one lock: a browser that has not seen another
+    // question's draft must not remove it by saving its own changed entries.
+    let db = app.db.lock().unwrap();
+    let previous: Option<String> = db
+        .query_row(
+            "SELECT value FROM settings WHERE key='study_memory'",
+            [],
+            |r| r.get(0),
+        )
+        .optional()
+        .map_err(internal)?;
+    let previous = match previous {
+        Some(raw) => serde_json::from_str::<Value>(&raw).map_err(internal)?,
+        None => json!({"questions":{}}),
+    };
+    let merged = merge_memory(previous, &value)?;
+    let raw = serde_json::to_string(&merged).map_err(internal)?;
     if raw.len() > 1024 * 1024 {
         return Err(bad("学习草稿过大，请先整理笔记"));
     }
-    app.db.lock().unwrap().execute("INSERT INTO settings(key,value) VALUES('study_memory',?1) ON CONFLICT(key) DO UPDATE SET value=excluded.value",[raw]).map_err(internal)?;
+    db.execute("INSERT INTO settings(key,value) VALUES('study_memory',?1) ON CONFLICT(key) DO UPDATE SET value=excluded.value",[raw]).map_err(internal)?;
     Ok(Json(json!({"saved":true})))
+}
+
+fn merge_memory(mut previous: Value, incoming: &Value) -> Result<Value, ApiError> {
+    let questions = previous["questions"]
+        .as_object_mut()
+        .ok_or_else(|| bad("已有学习草稿格式异常，未修改旧记录"))?;
+    let updates = incoming["questions"]
+        .as_object()
+        .ok_or_else(|| bad("学习草稿格式无效"))?;
+    for (id, draft) in updates {
+        if !draft.is_object() {
+            return Err(bad("题目草稿格式无效"));
+        }
+        questions.insert(id.clone(), draft.clone());
+    }
+    if let Some(id) = incoming.get("lastId") {
+        if !id.is_string() {
+            return Err(bad("继续学习题号无效"));
+        }
+        previous["lastId"] = id.clone();
+    }
+    Ok(previous)
 }
 
 #[derive(Deserialize, Default)]
@@ -444,6 +482,15 @@ pub async fn save_export(
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[test]
+    fn memory_updates_preserve_unseen_questions_and_last_location() {
+        let old = json!({"lastId":"q1","questions":{"q1":{"draft":"keep"},"q2":{"draft":"old"}}});
+        let merged = merge_memory(old, &json!({"questions":{"q2":{"draft":"new"}}})).unwrap();
+        assert_eq!(merged["questions"]["q1"]["draft"], "keep");
+        assert_eq!(merged["questions"]["q2"]["draft"], "new");
+        assert_eq!(merged["lastId"], "q1");
+        assert!(merge_memory(json!({"questions":{}}), &json!({"questions":{"q1":null}})).is_err());
+    }
     #[test]
     fn weights_and_unique_chapter_counts() {
         let catalog = vec![

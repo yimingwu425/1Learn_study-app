@@ -38,3 +38,9 @@ PyMuPDF 仍存在于开发/旧兼容环境，已脱离新版运行路径。不�
 Mac 资源暂存脚本现在复制 Rust 核心、前端、PdfCraft 完整工具包/声明、字体和考纲显示资产、Schema；不复制 Python 助手，不自动打包用户题库。Tesseract 仍使用本机安装，尚未制成含 OCR 的自包含分发包。签名、公证、安装器及其他系统/架构仍待验证。
 
 官方资料：[PdfCraft](https://github.com/storytold/pdfcraft)、[printpdf](https://docs.rs/printpdf/0.8.2/printpdf/)、[jsonschema](https://docs.rs/jsonschema/0.33.0/jsonschema/)、[Noto Sans SC](https://github.com/google/fonts/tree/main/ofl/notosanssc)。
+
+## Linux 云端开发与 CI
+
+可使用同版官方 `pdfcraft-cli-0.20.0-linux-x86_64.tar.gz`，解压后把 `STUDY_PDFCRAFT_BIN` 设置为其 `pdfcraft-cli` 的绝对路径。`run-local.sh` 已尊重此配置，不再强制要求 Mac 默认路径。官方发布 SHA256：`a5b2967d057a12091f8ddaf5e247a608b16628ee0c9752c9c1fac286107dc238`。工具包、许可与字体归属保留在 `.toolchain/`，不提交二进制。
+
+GitHub `Verify source-only study app` 会安装同版经校验引擎，以隔离合成题库运行 Rust、Python/HTTP 和 React 回归，并构建前端。它不需要私人试卷、学习记录或真实 Luna 账户。私有原卷回归仍由 `STUDY_REAL_FIXTURES=1` 显式启用。云端通过不等于 Mac Tauri、签名或分发通过。
