@@ -1,0 +1,7 @@
+{
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "resources": { "runtime/": "runtime/" }
+  }
+}

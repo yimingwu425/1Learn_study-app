@@ -1,0 +1,9 @@
+{
+  "upstream": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+  "download": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+  "upstreamSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "runtimeFont": "StudyNotoSansSC-Regular.ttf",
+  "runtimeFontSha256": "231dacc186fcc0f61565eda76c6b83e5435a54ae0b2a92061f3c49b5e426b574",
+  "build": "fonttools 4.61.1 instantiateVariableFont wght=400; one-time development asset preparation, never app runtime",
+  "license": "OFL.txt"
+}

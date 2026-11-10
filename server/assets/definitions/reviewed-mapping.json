@@ -1,0 +1,890 @@
+{
+  "schemaVersion": 2,
+  "sourceAssignments": [
+    {
+      "candidateId": "c073b26f2d8e1fb3302b24c7e7751a3ca2e9498b8ab78cfb707b00260dae6d47",
+      "source": "9702_m20_22",
+      "page": 8,
+      "termsAndReferences": [
+        "work"
+      ]
+    },
+    {
+      "candidateId": "500dd915c5b61a3ea0e476a74aa4a804c42b59cf90ecd4e5ae65833feeefde8d",
+      "source": "9702_m20_22",
+      "page": 10,
+      "termsAndReferences": [
+        "wavelength@4(a)(i)",
+        "amplitude@4(a)(ii)"
+      ]
+    },
+    {
+      "candidateId": "d1d46bfe7bece2842419fb396bcf50abe742e7e4f842990492684a58d0fbc27f",
+      "source": "9702_m20_22",
+      "page": 10,
+      "termsAndReferences": [
+        "diffraction",
+        "coherence"
+      ]
+    },
+    {
+      "candidateId": "12b6a8ac6500c05fbcd77d8f194abe7f5172225d4b7c518b91fe5bf7e49cfc47",
+      "source": "9702_m20_22",
+      "page": 12,
+      "termsAndReferences": [
+        "ohm"
+      ]
+    },
+    {
+      "candidateId": "4944052b166f6ce5e8380eac286dd8477a2dcd886401bccfa6e92b3d8a539d03",
+      "source": "9702_m21_22",
+      "page": 5,
+      "termsAndReferences": [
+        "force"
+      ]
+    },
+    {
+      "candidateId": "ea972b7d0f92cb618c9871e2dec005f27b342198f2e18c122e86880e82860795",
+      "source": "9702_m21_22",
+      "page": 6,
+      "termsAndReferences": [
+        "work"
+      ]
+    },
+    {
+      "candidateId": "92e8f33ceee33b0a6f17c1f35977d62078457911b6002da3beb368e6c18d7e4d",
+      "source": "9702_m23_12",
+      "page": 14,
+      "termsAndReferences": [
+        "pd"
+      ]
+    },
+    {
+      "candidateId": "e7b49f96e94f155fc821edd5963b702d27e5fd0e3500a27aaaa603db51c1df87",
+      "source": "9702_m23_22",
+      "page": 15,
+      "termsAndReferences": [
+        "pd"
+      ]
+    },
+    {
+      "candidateId": "bcf38cf62ae3ba253fc3311d474c52a8a0ffdd4f8e103da0ef10b9c7cf9d30f3",
+      "source": "9702_m24_22",
+      "page": 6,
+      "termsAndReferences": [
+        "acceleration"
+      ]
+    },
+    {
+      "candidateId": "2c813b05cad34b66813f33ba7194cfadfe9c8ec0507da5173cd84c7ed69a5f54",
+      "source": "9702_m24_22",
+      "page": 11,
+      "termsAndReferences": [
+        "transverse"
+      ]
+    },
+    {
+      "candidateId": "8271295c34473ee1e87ba196df44f04811806e28dfc2897a4caef358736439f4",
+      "source": "9702_m24_22",
+      "page": 14,
+      "termsAndReferences": [
+        "pd"
+      ]
+    },
+    {
+      "candidateId": "c3fbdf034ebb474cd29f69112945c8badef44670fea247327544aeb9605aa005",
+      "source": "9702_s20_12",
+      "page": 13,
+      "termsAndReferences": [
+        "plastic"
+      ]
+    },
+    {
+      "candidateId": "c54a5c211da7356e0e0fae71c5f1703d4d1883011fe66103666c4d9a674bb7f6",
+      "source": "9702_s20_13",
+      "page": 17,
+      "termsAndReferences": [
+        "coulomb"
+      ]
+    },
+    {
+      "candidateId": "5c26feb907379347b201e7ee03fd06fc56d9948edc841817165191b305a4e758",
+      "source": "9702_s20_21",
+      "page": 10,
+      "termsAndReferences": [
+        "longitudinal"
+      ]
+    },
+    {
+      "candidateId": "503a94b1e9103af5ead5053b79a89bdb722f826bf5af21a67ce3391de21008eb",
+      "source": "9702_s20_22",
+      "page": 5,
+      "termsAndReferences": [
+        "velocity"
+      ]
+    },
+    {
+      "candidateId": "428463aa90e7a65e7ad78b81bae8b5626fd360ff0709cdd96f5220ccd1fe00fd",
+      "source": "9702_s20_22",
+      "page": 8,
+      "termsAndReferences": [
+        "work"
+      ]
+    },
+    {
+      "candidateId": "b16f79a6048edf9a3440489f227a8905e0bae1cbaa18c57425cdf9adff94e85d",
+      "source": "9702_s20_22",
+      "page": 11,
+      "termsAndReferences": [
+        "node"
+      ]
+    },
+    {
+      "candidateId": "177b56135df4b34330b6815bba9342b00cf1020cd370841865d7c0bf9713234d",
+      "source": "9702_s20_23",
+      "page": 5,
+      "termsAndReferences": [
+        "precision@1(b)(i)",
+        "accuracy@1(b)(ii)"
+      ]
+    },
+    {
+      "candidateId": "5ea1e69b1694a753d755cfe367eb9feffdac2f286b21ad52ba44828ecdf5b8b2",
+      "source": "9702_s20_23",
+      "page": 12,
+      "termsAndReferences": [
+        "volt"
+      ]
+    },
+    {
+      "candidateId": "ed0d64a60c10be82f44f0d352878d88bba83bb7f4b24e4621ba6423adba5f9f9",
+      "source": "9702_s21_21",
+      "page": 4,
+      "termsAndReferences": [
+        "density"
+      ]
+    },
+    {
+      "candidateId": "28ec39aa69e51b2a5d829a647520985384dc61e86cb9404df99dc0cb7bb3b439",
+      "source": "9702_s21_21",
+      "page": 10,
+      "termsAndReferences": [
+        "wavelength"
+      ]
+    },
+    {
+      "candidateId": "0e506475738185156f76df0a6ace404389b20baf3cb95600504a3b67618f3f5f",
+      "source": "9702_s21_22",
+      "page": 10,
+      "termsAndReferences": [
+        "period"
+      ]
+    },
+    {
+      "candidateId": "e300a46e60c54c78f97eaa07b63ce71f8e4a1fab379fdafa349a5a60abe03207",
+      "source": "9702_s21_22",
+      "page": 12,
+      "termsAndReferences": [
+        "ohm"
+      ]
+    },
+    {
+      "candidateId": "a9f7c2522c5508eab3fd86acead8c4167cff75d100804b1ec32e438c20cec293",
+      "source": "9702_s21_23",
+      "page": 6,
+      "termsAndReferences": [
+        "acceleration"
+      ]
+    },
+    {
+      "candidateId": "bbf3839f1386908ae809cbd10c7d3bb291b2483789db90c7a2038ea1200cca42",
+      "source": "9702_s21_23",
+      "page": 8,
+      "termsAndReferences": [
+        "moment"
+      ]
+    },
+    {
+      "candidateId": "94565a80616920913ec95883ddb82e5f6266d768cc6e62caf931783688566edd",
+      "source": "9702_s21_23",
+      "page": 12,
+      "termsAndReferences": [
+        "emf"
+      ]
+    },
+    {
+      "candidateId": "b90633db2c218bac9367975ad8af9627465ec6bb29eb4edda9c8279b3b77af99",
+      "source": "9702_s22_21",
+      "page": 4,
+      "termsAndReferences": [
+        "velocity"
+      ]
+    },
+    {
+      "candidateId": "8abca646e768803d74cddc489ce2e55e76b8c6b48639aaccef73c3fcaab466c6",
+      "source": "9702_s22_21",
+      "page": 6,
+      "termsAndReferences": [
+        "cg"
+      ]
+    },
+    {
+      "candidateId": "a30a24b318a9ad7d9cb79a866648caeec7f4f75632a0cc6d8a4be76610bb0127",
+      "source": "9702_s22_21",
+      "page": 8,
+      "termsAndReferences": [
+        "power"
+      ]
+    },
+    {
+      "candidateId": "7a5b7a7707e8253f9fadc940faff36360281fe6ba6d29aa1d615d16a23278bb4",
+      "source": "9702_s22_22",
+      "page": 12,
+      "termsAndReferences": [
+        "coherence"
+      ]
+    },
+    {
+      "candidateId": "e381513fca2afea46857020b263477b7d12ccbc209d995c160fb4f4ad855b436",
+      "source": "9702_s22_23",
+      "page": 6,
+      "termsAndReferences": [
+        "velocity"
+      ]
+    },
+    {
+      "candidateId": "0508c72951788a50c70fc9786ca62c032e5701560c4c561d0f5f7c213bdd7d47",
+      "source": "9702_s23_21",
+      "page": 3,
+      "termsAndReferences": [
+        "power"
+      ]
+    },
+    {
+      "candidateId": "6c33ff06411ae43d5f4d276f368ff709c7e3a4934109e91947e08bd3916d831c",
+      "source": "9702_s23_21",
+      "page": 15,
+      "termsAndReferences": [
+        "coherence"
+      ]
+    },
+    {
+      "candidateId": "15baf78d986002ed12cb987b253abdf6d3052c51499b0687541ead8ba9f68f6f",
+      "source": "9702_s23_22",
+      "page": 3,
+      "termsAndReferences": [
+        "pressure"
+      ]
+    },
+    {
+      "candidateId": "d41d6639d1a5712c67c2e27f6422aa5d50c9685017591c59767cb9a439639a60",
+      "source": "9702_s23_22",
+      "page": 4,
+      "termsAndReferences": [
+        "cg"
+      ]
+    },
+    {
+      "candidateId": "f7c332740b5eb25c3a070080c106d46028eb898af024e831033b088569099154",
+      "source": "9702_s23_22",
+      "page": 8,
+      "termsAndReferences": [
+        "force"
+      ]
+    },
+    {
+      "candidateId": "9b6e10f26ae8a433ed0044b154f0892a0ba4773d41afc7c50a827a7b60a0df67",
+      "source": "9702_s23_23",
+      "page": 10,
+      "termsAndReferences": [
+        "frequency"
+      ]
+    },
+    {
+      "candidateId": "ad9d2c0aefa372af1a7595fed36aec39fe26947f094a714278aae6500152a733",
+      "source": "9702_s23_23",
+      "page": 16,
+      "termsAndReferences": [
+        "young"
+      ]
+    },
+    {
+      "candidateId": "72060a06385bb5b19c214fa14d9b0b33c617d34e3d66004f726ca520463ac450",
+      "source": "9702_s24_21",
+      "page": 6,
+      "termsAndReferences": [
+        "velocity"
+      ]
+    },
+    {
+      "candidateId": "78bf08ac860fb6f9e6be243d24d5f662da7b3ad7fce3531526ba06b09474e348",
+      "source": "9702_s24_21",
+      "page": 10,
+      "termsAndReferences": [
+        "strain"
+      ]
+    },
+    {
+      "candidateId": "6b62241ba05273485f876426c1c77281f338253b410f8876eb310f91a54592d4",
+      "source": "9702_s24_23",
+      "page": 6,
+      "termsAndReferences": [
+        "displacement"
+      ]
+    },
+    {
+      "candidateId": "41b3abb6d0de643e1fc9a5a83cd72506424c8058d909e8f5c6365c08e126f569",
+      "source": "9702_s26_14",
+      "page": 10,
+      "termsAndReferences": [
+        "young"
+      ]
+    },
+    {
+      "candidateId": "b2c733917980405d74fbfb8ec5dcc25bc945e517eb4d6efb573570427b3476ef",
+      "source": "9702_w20_21",
+      "page": 4,
+      "termsAndReferences": [
+        "moment"
+      ]
+    },
+    {
+      "candidateId": "44afe474e4f6651257a7ae8864c9754cc0f548ea62e6c2aaff402067040b3411",
+      "source": "9702_w20_21",
+      "page": 8,
+      "termsAndReferences": [
+        "force"
+      ]
+    },
+    {
+      "candidateId": "76b2e3b5c155cda63a851e9c157eed2b02c5e27088f2c8b9bb93b462176706ce",
+      "source": "9702_w20_21",
+      "page": 10,
+      "termsAndReferences": [
+        "stress@4(a)(i)",
+        "strain@4(a)(ii)"
+      ]
+    },
+    {
+      "candidateId": "f3ab4ca9050f85a97f19e73196acc4d552710f426ab1e232eb8ac430f6df9360",
+      "source": "9702_w20_21",
+      "page": 11,
+      "termsAndReferences": [
+        "precision"
+      ]
+    },
+    {
+      "candidateId": "5b4ad3b1f1a1f2341280b6735bbd404c2613ed7ca24047161ac773244e2c7882",
+      "source": "9702_w20_21",
+      "page": 13,
+      "termsAndReferences": [
+        "node"
+      ]
+    },
+    {
+      "candidateId": "b31147fb76fd614dde8527afedb60431a93b7433291ee07b5e8c344b8f8a6a80",
+      "source": "9702_w20_21",
+      "page": 14,
+      "termsAndReferences": [
+        "ohm"
+      ]
+    },
+    {
+      "candidateId": "bd3df6183a6157b3527243e88579b03686744a3e5f2ec22c30ce8b2ddb2b0fba",
+      "source": "9702_w20_23",
+      "page": 5,
+      "termsAndReferences": [
+        "cg"
+      ]
+    },
+    {
+      "candidateId": "fa0fa72bdf997997e5dfd696a57a7d14f15123cba8210214d86dbc1153294d72",
+      "source": "9702_w20_23",
+      "page": 12,
+      "termsAndReferences": [
+        "pd"
+      ]
+    },
+    {
+      "candidateId": "954f2478912b13a06e83bf18cc4151866363a5adc877aea8db9b163075f18318",
+      "source": "9702_w21_21",
+      "page": 4,
+      "termsAndReferences": [
+        "density"
+      ]
+    },
+    {
+      "candidateId": "8b81c403abc6635121a259f79df6d6142e38466553a39d050f9311316ae41327",
+      "source": "9702_w21_21",
+      "page": 6,
+      "termsAndReferences": [
+        "momentum"
+      ]
+    },
+    {
+      "candidateId": "55a5878bc3bab36991a66a3238a866fd314bf826a886013354f2fad5c8fb65e3",
+      "source": "9702_w21_21",
+      "page": 10,
+      "termsAndReferences": [
+        "longitudinal"
+      ]
+    },
+    {
+      "candidateId": "c472719dc42cc85389adab24ba6f546e58f4c6031555b42af956f2ad412452cf",
+      "source": "9702_w21_22",
+      "page": 8,
+      "termsAndReferences": [
+        "power"
+      ]
+    },
+    {
+      "candidateId": "5b4ad7cc13deb3316b0ec9d6fb1f829b3820037fb7c3b77b8129540da6711d33",
+      "source": "9702_w21_23",
+      "page": 6,
+      "termsAndReferences": [
+        "work"
+      ]
+    },
+    {
+      "candidateId": "ccc3d3da82c605f036f0a66b37434f7097b4881e3cac59e50134b03e7425635c",
+      "source": "9702_w21_23",
+      "page": 7,
+      "termsAndReferences": [
+        "velocity"
+      ]
+    },
+    {
+      "candidateId": "f9f43a4e13847cdb586d8e8ac2ba293ea59099de3d4fc973c7b26d5258afe030",
+      "source": "9702_w21_23",
+      "page": 12,
+      "termsAndReferences": [
+        "amplitude"
+      ]
+    },
+    {
+      "candidateId": "b1d6cb4275595754a245b5fe20cf871bf5cc5c0ea8b1ec9fd0e8c86726182232",
+      "source": "9702_w22_21",
+      "page": 4,
+      "termsAndReferences": [
+        "precision@1(b)(i)",
+        "accuracy@1(b)(ii)"
+      ]
+    },
+    {
+      "candidateId": "361e013471da6ea7657237b840cb9ec52470f085e0f3672a22966eccbf2edc04",
+      "source": "9702_w22_21",
+      "page": 10,
+      "termsAndReferences": [
+        "power"
+      ]
+    },
+    {
+      "candidateId": "55284599721b5c186298298d915f06bfdf574f319fe34b8e2a407488d23392b0",
+      "source": "9702_w22_21",
+      "page": 17,
+      "termsAndReferences": [
+        "fundamental"
+      ]
+    },
+    {
+      "candidateId": "62b40fb80bd875342bb1a72c8248d9302bc456aba0fcb807e5c43102be0a2e24",
+      "source": "9702_w22_22",
+      "page": 3,
+      "termsAndReferences": [
+        "work"
+      ]
+    },
+    {
+      "candidateId": "aab76217e8a62be28b84d25fbe3ddce5ee98b1cba74ecf83ac1c532c73b6087e",
+      "source": "9702_w22_22",
+      "page": 6,
+      "termsAndReferences": [
+        "cg"
+      ]
+    },
+    {
+      "candidateId": "fabecf2006849266e8466fbfe01024fe4f67f87a35a8bb7956ef43d22e5b00fe",
+      "source": "9702_w22_22",
+      "page": 12,
+      "termsAndReferences": [
+        "pd"
+      ]
+    },
+    {
+      "candidateId": "c7b7df296ce14627a8ac155bf96e275fc800c5cdbb5ac5df924d941cc58d2244",
+      "source": "9702_w23_12",
+      "page": 4,
+      "termsAndReferences": [
+        "acceleration"
+      ]
+    },
+    {
+      "candidateId": "7697982281aa9e1e12c4384fb8b7ed6b3bb37ac3f9d3a1b33b71eaaf157f6457",
+      "source": "9702_w23_12",
+      "page": 8,
+      "termsAndReferences": [
+        "efficiency"
+      ]
+    },
+    {
+      "candidateId": "099dfa7a8608d6441e81e3118deb3a8deaff01d2b17c0eea42eccd71f8fd89c8",
+      "source": "9702_w23_22",
+      "page": 12,
+      "termsAndReferences": [
+        "diffraction"
+      ]
+    },
+    {
+      "candidateId": "c4bada9feaa0a7febb6685f61322a9f1d4d87bf84d6fc405ee223b7f89abf9e7",
+      "source": "9708_m22_22",
+      "page": 4,
+      "termsAndReferences": [
+        "protectionism"
+      ]
+    },
+    {
+      "candidateId": "50d24b05579982bf46261fcd60bff02b8ac467e9e1afc6474c53864b2e4fdfa0",
+      "source": "9708_m23_22",
+      "page": 4,
+      "termsAndReferences": [
+        "appreciation"
+      ]
+    },
+    {
+      "candidateId": "ec227d4da977a6ce67b733a71aa35a37686176c36c3d6c72371839cc9fb99e56",
+      "source": "9708_m24_22",
+      "page": 4,
+      "termsAndReferences": [
+        "depreciation"
+      ]
+    },
+    {
+      "candidateId": "1b50fcaf11dfdbf64940d60524fa0ca713db8c7160a253fa61a804af9d89afc1",
+      "source": "9708_m25_12",
+      "page": 7,
+      "termsAndReferences": [
+        "price_stability"
+      ]
+    },
+    {
+      "candidateId": "6b3c2aaa93c5e89eda42df15afedeeca5b6e4c4e591c3749e0464e09d31b5244",
+      "source": "9708_m25_22",
+      "page": 4,
+      "termsAndReferences": [
+        "expansionary_fiscal"
+      ]
+    },
+    {
+      "candidateId": "046d80fbee0de15704f9e54a57ca31fd23025c6ff3c0916850fbab7827b72548",
+      "source": "9708_m26_12",
+      "page": 5,
+      "termsAndReferences": [
+        "subsidy"
+      ]
+    },
+    {
+      "candidateId": "37fccb24abe1f71d4f6809dfbb681a73b8f5f3bee2bd00e086ca0d820e7efdf1",
+      "source": "9708_m26_22",
+      "page": 3,
+      "termsAndReferences": [
+        "yed"
+      ]
+    },
+    {
+      "candidateId": "8575f7f26c6c577c30c45af23d0fc30156caa14b3051770016a3b1107377fcb5",
+      "source": "9708_m26_22",
+      "page": 3,
+      "termsAndReferences": [
+        "demerit"
+      ]
+    },
+    {
+      "candidateId": "755ae3073b264301a308048a615c653503d86fed1362e1c5e4a13511df977bca",
+      "source": "9708_m26_22",
+      "page": 3,
+      "termsAndReferences": [
+        "consumer_surplus",
+        "producer_surplus"
+      ]
+    },
+    {
+      "candidateId": "391503450d0e4761b44ab559e06d4350add199926e4071a733bb5e65f914f7dd",
+      "source": "9708_s20_11",
+      "page": 2,
+      "termsAndReferences": [
+        "division_labour"
+      ]
+    },
+    {
+      "candidateId": "54d6563442b5b63eab4fe903a449f92d84150898d37ecf7199631c1217b14468",
+      "source": "9708_s21_22",
+      "page": 4,
+      "termsAndReferences": [
+        "demerit"
+      ]
+    },
+    {
+      "candidateId": "33a70f65fe8b55e2b43c94e6cad6434cd5cadcdb58cd05d1ce7df0baa7b0130b",
+      "source": "9708_s21_22",
+      "page": 4,
+      "termsAndReferences": [
+        "deflation"
+      ]
+    },
+    {
+      "candidateId": "2acaf4aac3f71cb95877c4388de9199c0c4060f141a62aa68a5ba226267f7950",
+      "source": "9708_s21_23",
+      "page": 3,
+      "termsAndReferences": [
+        "xed"
+      ]
+    },
+    {
+      "candidateId": "bb21eb62ace0a587879c5525226d791e573b5e63aa3deb99d4eb9f3406c408f2",
+      "source": "9708_s21_23",
+      "page": 3,
+      "termsAndReferences": [
+        "aggregate_supply"
+      ]
+    },
+    {
+      "candidateId": "94ce735463bd79e3bd483010fd0e639cc219e5445a639dec21780e6b76704cb8",
+      "source": "9708_s22_22",
+      "page": 4,
+      "termsAndReferences": [
+        "ca_surplus"
+      ]
+    },
+    {
+      "candidateId": "6b4d0bc1820b8e08abc4c6010ca26515cd45be4d3495f754fd106dd155687043",
+      "source": "9708_s23_22",
+      "page": 4,
+      "termsAndReferences": [
+        "consumer_surplus",
+        "producer_surplus"
+      ]
+    },
+    {
+      "candidateId": "8b55f402964157a2dec4bd105990df1a0fec4e803b3eb470487d0a1ff7768971",
+      "source": "9708_s23_22",
+      "page": 4,
+      "termsAndReferences": [
+        "equilibrium"
+      ]
+    },
+    {
+      "candidateId": "563328e0c902f176db78de6a5a809dc45b709acf09d1617acc0a3fa830854987",
+      "source": "9708_s24_21",
+      "page": 3,
+      "termsAndReferences": [
+        "comparative"
+      ]
+    },
+    {
+      "candidateId": "884a4443b485d607a6489d301913e7635ceb112d56b454cd2bd005f64fc5d33f",
+      "source": "9708_s24_21",
+      "page": 3,
+      "termsAndReferences": [
+        "yed"
+      ]
+    },
+    {
+      "candidateId": "4846f425b60f801bd5319f5fcd0d564d333226f9cfa3c2b2b6d9cf8b6d5c4c9a",
+      "source": "9708_s24_22",
+      "page": 4,
+      "termsAndReferences": [
+        "circular_flow"
+      ]
+    },
+    {
+      "candidateId": "fd657ed67bc1aec02ed58a93d64c20e06bb09290090ae4da55788377206ca07b",
+      "source": "9708_s24_22",
+      "page": 4,
+      "termsAndReferences": [
+        "protectionism"
+      ]
+    },
+    {
+      "candidateId": "af65429da77dcab67cc6a5167ea22639b2e40d55b604446731c27d02c691ad12",
+      "source": "9708_s25_12",
+      "page": 2,
+      "termsAndReferences": [
+        "positive_statement"
+      ]
+    },
+    {
+      "candidateId": "2cd45d0cafdf8ee6ffc5b08dff29ce18650a65910a70d7a167244118b946e192",
+      "source": "9708_s25_23",
+      "page": 3,
+      "termsAndReferences": [
+        "merit"
+      ]
+    },
+    {
+      "candidateId": "25dab5dd995e98560d3657b23c576ee5a2bbad4ccf08c839d840ff06f9d2be4f",
+      "source": "9708_s25_24",
+      "page": 3,
+      "termsAndReferences": [
+        "real_gdp"
+      ]
+    },
+    {
+      "candidateId": "994b725b0c689fc13a4f7b891156c16c00c95eed13ab4922f587df36fd471ba4",
+      "source": "9708_s26_14",
+      "page": 8,
+      "termsAndReferences": [
+        "proportional_tax"
+      ]
+    },
+    {
+      "candidateId": "7476fbc246ff392d1f9c154cd80d5afb4d2c223661c184cce9699a03dc23a054",
+      "source": "9708_s26_22",
+      "page": 4,
+      "termsAndReferences": [
+        "equilibrium@2(a)"
+      ]
+    },
+    {
+      "candidateId": "96d9cf3aa6af2d28c8c435b0de2e4d1bbed905519971256b322e588607c42850",
+      "source": "9708_s26_24",
+      "page": 4,
+      "termsAndReferences": [
+        "circular_flow"
+      ]
+    },
+    {
+      "candidateId": "0e5a33e5fdafcb426702c12c7d32e54895394601c329379991c124adddab66e8",
+      "source": "9708_w20_21",
+      "page": 3,
+      "termsAndReferences": [
+        "budget_deficit"
+      ]
+    },
+    {
+      "candidateId": "f5756d921c15bb39ef76aa89ea0af5dab28fa40d6fe59679941fb47193026156",
+      "source": "9708_w20_23",
+      "page": 3,
+      "termsAndReferences": [
+        "yed"
+      ]
+    },
+    {
+      "candidateId": "561f7507316dc0c58195e2e51f959fb0eb311444dd29dd5419592216878defd4",
+      "source": "9708_w21_22",
+      "page": 4,
+      "termsAndReferences": [
+        "consumer_surplus"
+      ]
+    },
+    {
+      "candidateId": "0ac93c1c702081fed7e1ca48efb549e991c8afff07dfe41116485f3ffc133fab",
+      "source": "9708_w21_22",
+      "page": 4,
+      "termsAndReferences": [
+        "inflation"
+      ]
+    },
+    {
+      "candidateId": "70698da9194d8afad547f9e6a75c431ab84824abb048f6c2848a4d2bcce3a7e8",
+      "source": "9708_w23_22",
+      "page": 4,
+      "termsAndReferences": [
+        "ped"
+      ]
+    },
+    {
+      "candidateId": "923b34a8eb7a38f5fda156f253b8d68285bf0a738520dcb06e07feb99273857c",
+      "source": "9708_w24_23",
+      "page": 4,
+      "termsAndReferences": [
+        "cost_push"
+      ]
+    },
+    {
+      "candidateId": "b21647e2c09eb70dbcdb67b7db1692b5515bf2efd31db32a1117c5c1244d1a21",
+      "source": "9708_w25_13",
+      "page": 2,
+      "termsAndReferences": [
+        "division_labour"
+      ]
+    },
+    {
+      "candidateId": "e8491d59d2c6e7aeec4ba6d3524fe709e207c8cfe63500886ebd2ab51c3c4611",
+      "source": "9708_w25_13",
+      "page": 11,
+      "termsAndReferences": [
+        "comparative"
+      ]
+    },
+    {
+      "candidateId": "96487eb1e0bc51db6b90057667a3047b147db66032d66d9c93ac89cfb77d3c2c",
+      "source": "9708_w25_21",
+      "page": 3,
+      "termsAndReferences": [
+        "opportunity"
+      ]
+    },
+    {
+      "candidateId": "b7957b0c42d6be924bd038c5012ab2b652b898637f3caf7e9c6b2dfab96d8216",
+      "source": "9708_w25_21",
+      "page": 4,
+      "termsAndReferences": [
+        "ped"
+      ]
+    },
+    {
+      "candidateId": "912e7df2db19d8d04b9bfa625123db07177e2e86211d27d42f7f2afe1c7da05b",
+      "source": "9708_w25_24",
+      "page": 4,
+      "termsAndReferences": [
+        "tax_incidence"
+      ]
+    },
+    {
+      "candidateId": "3ed46482e9de1194181f5390fc67ea014be3d06aec824bfb0da7188acc71f6d8",
+      "source": "9708_w25_24",
+      "page": 4,
+      "termsAndReferences": [
+        "protectionism"
+      ]
+    }
+  ],
+  "sourceExcluded": [
+    {
+      "candidateId": "d7da5a3a5117754e080352824fedfa2c75bca2b5e936fb2f17dfc0281b71d215",
+      "reason": "Uses power to derive units; not a direct definition request"
+    },
+    {
+      "candidateId": "b4803ea7e5e821ef7f5b680454981731a6f28e36c0c14a3c1800c21562e1c37b",
+      "reason": "Symbol identification, not this definition catalogue"
+    },
+    {
+      "candidateId": "cade7b5ea9e8bd59432b9f1c9027de9cdca3e8542c5cdb30f2e046c0ae68e0dc",
+      "reason": "Power derivation already represented by its definition subpart"
+    },
+    {
+      "candidateId": "ace17edd98e404851ad17e9469b0accbc0313f4f7123e7279f0208d93de23b41",
+      "reason": "Power-unit derivation, not an additional definition"
+    },
+    {
+      "candidateId": "ad56742caf23c037d5b5baebc1f00d140bb8d964fb0736ef460498fee619fcd0",
+      "reason": "Power derivation, not an additional definition"
+    },
+    {
+      "candidateId": "2c4c9504346ce3dde23855cc91ed228b2f3db7850164487a1b2ab5d19276b36c",
+      "reason": "Identifies a quantity used in a derivation, not a definition of that quantity"
+    },
+    {
+      "candidateId": "63f75165eb1d03484cdd58d8e16e5ed7fd892ee829a81501ce6abf1a51d9e380",
+      "reason": "Context-specific stimulus package explanation; not accepted as a generic definition without further review"
+    },
+    {
+      "candidateId": "c3c2c4dba97672164d21f385de285fae1a72d2494c337fdf968baa2610f2bed4",
+      "reason": "Interprets a negative real interest rate; not counted as a direct definition"
+    },
+    {
+      "candidateId": "f53a21f87a97b4a3b20e98e170e1c40c9be38ab4418b519ed0fbd3059c9d2d1a",
+      "reason": "Interprets a change in a Gini coefficient; not counted as a direct definition"
+    }
+  ]
+}

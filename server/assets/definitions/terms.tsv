@@ -1,0 +1,62 @@
+# id|subject|English term|中文术语|tagId|English recitation (editorial)|中文理解（整理）
+work|9702|Work done|做功|KP048|Work done is the product of the force and the displacement in the direction of the force.|功等于力与沿该力方向的位移的乘积。
+wavelength|9702|Wavelength|波长|KP074|Wavelength is the distance between two adjacent wavefronts.|波长是两个相邻波阵面之间的距离。
+amplitude|9702|Amplitude|振幅|KP074|Amplitude is the maximum displacement of a particle from its equilibrium position.|振幅是质点偏离平衡位置的最大位移。
+diffraction|9702|Diffraction|衍射|KP093|Diffraction is the spreading of waves as they pass through a gap or around an obstacle.|衍射是波通过狭缝或绕过障碍物时发生的扩展。
+coherence|9702|Coherence|相干性|KP095|Coherent waves have a constant phase difference.|相干波之间具有恒定的相位差。
+ohm|9702|Ohm|欧姆|KP108|One ohm is the resistance of a component for which a potential difference of one volt produces a current of one ampere.|若元件两端电势差为1伏时电流为1安，其电阻就是1欧。
+force|9702|Force|力|KP025|Force is the rate of change of momentum.|力是动量随时间的变化率。
+pd|9702|Potential difference|电势差|KP105|Potential difference is the energy transferred per unit charge.|电势差是单位电荷通过元件时转移的能量。
+acceleration|9702|Acceleration|加速度|KP013|Acceleration is the rate of change of velocity.|加速度是速度随时间的变化率。
+transverse|9702|Transverse wave|横波|KP080|In a transverse wave, the oscillations are perpendicular to the direction of energy propagation.|横波中，振动方向与能量传播方向垂直。
+plastic|9702|Plastic deformation|塑性形变|KP067|Plastic deformation is permanent: the material does not return to its original length when the deforming force is removed.|塑性形变是永久形变：撤去形变力后，材料不能恢复原长。
+coulomb|9702|Coulomb|库仑|KP103|One coulomb is the charge passing a point in one second when the current is one ampere.|电流为1安时，1秒内通过某点的电荷量为1库仑。
+longitudinal|9702|Longitudinal wave|纵波|KP080|In a longitudinal wave, the oscillations are parallel to the direction of energy propagation.|纵波中，振动方向与能量传播方向平行。
+velocity|9702|Velocity|速度|KP013|Velocity is the rate of change of displacement.|速度是位移随时间的变化率。
+node|9702|Node|波节|KP091|A node is a position on a stationary wave where the amplitude is zero.|波节是驻波中振幅为零的位置。
+precision|9702|Precision|精密度|KP008|High precision means repeated measurements have a small spread; low precision means they have a large spread.|高精密度表示重复测量值的分散程度小；低精密度表示分散程度大。
+accuracy|9702|Accuracy|准确度|KP008|Accuracy describes how close a measured value is to the true value.|准确度描述测量值与真实值的接近程度。
+volt|9702|Volt|伏特|KP105|One volt is the potential difference when one joule of energy is transferred per coulomb of charge.|每库仑电荷转移1焦耳能量时，电势差为1伏。
+density|9702|Density|密度|KP042|Density is mass per unit volume.|密度是单位体积的质量。
+period|9702|Period|周期|KP074|The period is the time taken for one complete oscillation.|周期是完成一次完整振动所需的时间。
+moment|9702|Moment of a force|力矩|KP036|The moment of a force about a point is the force multiplied by the perpendicular distance from the point to the line of action of the force.|力对某点的力矩等于该力乘以该点到力作用线的垂直距离。
+emf|9702|Electromotive force|电动势|KP118|The e.m.f. of a source is the energy transferred by the source per unit charge in driving charge around a complete circuit.|电源的电动势是它驱动单位电荷通过完整电路时提供的能量。
+cg|9702|Centre of gravity|重心|KP035|The centre of gravity is the point at which the whole weight of an object may be considered to act.|重心是可以认为物体全部重力集中作用的点。
+power|9702|Power|功率|KP052|Power is work done per unit time.|功率是单位时间内所做的功。
+pressure|9702|Pressure|压强|KP043|Pressure is the normal force per unit area.|压强是单位面积上受到的垂直作用力。
+frequency|9702|Frequency|频率|KP074|Frequency is the number of complete oscillations per unit time.|频率是单位时间内完成的完整振动次数。
+young|9702|Young modulus|杨氏模量|KP065|Young modulus is the ratio of tensile stress to tensile strain.|杨氏模量是拉应力与拉应变之比。
+strain|9702|Strain|应变|KP065|Tensile strain is extension divided by original length.|拉应变等于伸长量除以原长。
+displacement|9702|Displacement|位移|KP013|Displacement from a point is the straight-line distance from that point in a specified direction.|相对于某点的位移，是从该点起沿指定方向的直线距离。
+stress|9702|Stress|应力|KP065|Tensile stress is the tensile force per unit cross-sectional area.|拉应力是单位横截面积上受到的拉力。
+momentum|9702|Momentum|动量|KP024|Momentum is the product of mass and velocity.|动量是质量与速度的乘积。
+fundamental|9702|Fundamental particle|基本粒子|KP144|A fundamental particle has no internal structure and cannot be broken down into smaller particles.|基本粒子没有内部结构，不能再分解为更小的粒子。
+efficiency|9702|Efficiency|效率|KP050|Efficiency is useful energy output divided by total energy input.|效率等于有用能量输出除以总能量输入。
+protectionism|9708|Protectionism|贸易保护主义|KP118|Protectionism is government interference with free trade to protect domestic industries from foreign competition.|贸易保护主义是政府干预自由贸易，以保护本国产业免受外国竞争。
+appreciation|9708|Appreciation|货币升值（浮动汇率）|KP127|Appreciation is a rise in the value of a currency in terms of another currency in a floating exchange-rate system, caused by market demand and supply.|在浮动汇率制度下，由市场供求引起的本币相对于其他货币价值的上升称为升值。
+depreciation|9708|Depreciation|货币贬值（浮动汇率）|KP127|Depreciation is a fall in the value of a currency in terms of another currency in a floating exchange-rate system.|浮动汇率制度下，本币相对于其他货币的价值下降称为贬值。
+price_stability|9708|Price stability|物价稳定|KP098|Price stability means avoiding prolonged periods of inflation and deflation.|物价稳定意味着避免长期的通货膨胀和通货紧缩。
+expansionary_fiscal|9708|Expansionary fiscal policy|扩张性财政政策|KP104|Expansionary fiscal policy is an increase in government spending and/or a reduction in tax rates to increase aggregate demand.|扩张性财政政策通过增加政府支出和／或降低税率来增加总需求。
+subsidy|9708|Subsidy|补贴|KP056|A subsidy is a government payment to firms that lowers their costs of production.|补贴是政府向企业支付、从而降低企业生产成本的款项。
+yed|9708|Income elasticity of demand|需求收入弹性|KP031|Income elasticity of demand measures the responsiveness of quantity demanded to a change in income: YED = percentage change in quantity demanded / percentage change in income.|需求收入弹性衡量需求量对收入变化的反应程度：YED＝需求量的百分比变化÷收入的百分比变化。
+demerit|9708|Demerit good|劣值品|KP023|A demerit good is worse for consumers than they realise and is overconsumed because of imperfect information.|劣值品对消费者的坏处大于其所认识的程度，并因信息不完全而被过度消费。
+consumer_surplus|9708|Consumer surplus|消费者剩余|KP048|Consumer surplus is the difference between the maximum price a consumer is willing to pay and the market price actually paid.|消费者剩余是消费者愿意支付的最高价格与实际支付的市场价格之差。
+producer_surplus|9708|Producer surplus|生产者剩余|KP049|Producer surplus is the difference between the market price received and the minimum price a producer is willing to accept.|生产者剩余是实际收到的市场价格与生产者愿意接受的最低价格之差。
+division_labour|9708|Division of labour|劳动分工|KP012|Division of labour splits production into separate tasks, with workers specialising in particular tasks.|劳动分工把生产过程拆分为不同任务，由工人专门从事其中的任务。
+deflation|9708|Deflation|通货紧缩|KP093|Deflation is a sustained fall in the general price level.|通货紧缩是总体物价水平的持续下降。
+xed|9708|Cross elasticity of demand|需求交叉弹性|KP031|Cross elasticity of demand measures the responsiveness of quantity demanded of one good to a change in the price of another: XED = percentage change in quantity demanded of good A / percentage change in price of good B.|需求交叉弹性衡量一种商品的需求量对另一种商品价格变化的反应程度：XED＝A商品需求量的百分比变化÷B商品价格的百分比变化。
+aggregate_supply|9708|Aggregate supply|总供给|KP077|Aggregate supply is the total output of goods and services supplied in an economy at a given price level.|总供给是一个经济体在给定总体物价水平下提供的商品和服务总产出。
+ca_surplus|9708|Current account surplus|经常账户盈余|KP121|A current account surplus occurs when receipts exceed payments on trade in goods and services and on primary and secondary income.|经常账户盈余是指商品、服务、初次收入和二次收入项目的收入总额超过支出总额。
+equilibrium|9708|Market equilibrium|市场均衡|KP044|Market equilibrium occurs when quantity demanded equals quantity supplied and there is no tendency for the market price to change.|市场均衡时需求量等于供给量，市场价格没有自行变化的趋势。
+comparative|9708|Comparative advantage|比较优势|KP114|A country has a comparative advantage in producing a good if it can produce it at a lower opportunity cost than another country.|若一国生产某商品的机会成本低于另一国，它就在该商品的生产上具有比较优势。
+circular_flow|9708|Circular flow of income|收入循环|KP069|The circular flow of income shows expenditure flowing from households to firms and income flowing from firms to households.|收入循环展示支出从家庭流向企业、收入从企业流向家庭的循环流动。
+positive_statement|9708|Positive economic statement|实证经济陈述|KP006|A positive economic statement is based on facts and can be tested.|实证经济陈述以事实为依据，并且可以被检验。
+merit|9708|Merit good|优值品|KP022|A merit good is better for consumers than they realise and is underconsumed because of imperfect information.|优值品对消费者的好处大于其所认识的程度，并因信息不完全而消费不足。
+real_gdp|9708|Real GDP|实际国内生产总值|KP086|Real GDP is GDP adjusted for changes in the price level, so that it measures output at constant prices.|实际GDP经过物价变动调整，以不变价格衡量产出。
+proportional_tax|9708|Proportional tax|比例税|KP102|A proportional tax takes the same percentage of income regardless of the level of income.|比例税对不同收入水平的人征收相同比例的收入。
+budget_deficit|9708|Government budget deficit|政府预算赤字|KP100|A government budget deficit is the amount by which government expenditure exceeds government revenue over a period.|政府预算赤字是一定时期内政府支出超过政府收入的部分。
+inflation|9708|Inflation|通货膨胀|KP093|Inflation is a sustained rise in the general price level.|通货膨胀是总体物价水平的持续上升。
+ped|9708|Price elasticity of demand|需求价格弹性|KP031|Price elasticity of demand measures the responsiveness of quantity demanded to a change in the good's own price: PED = percentage change in quantity demanded / percentage change in price.|需求价格弹性衡量需求量对该商品自身价格变化的反应程度：PED＝需求量的百分比变化÷价格的百分比变化。
+cost_push|9708|Cost-push inflation|成本推动型通货膨胀|KP096|Cost-push inflation is a rise in the general price level caused by higher costs of production, shifting short-run aggregate supply to the left.|成本推动型通胀由生产成本上升引起，短期总供给曲线左移，总体物价水平上升。
+opportunity|9708|Opportunity cost|机会成本|KP003|Opportunity cost is the value of the next best alternative forgone when a choice is made.|机会成本是作出选择时放弃的次优选择的价值。
+tax_incidence|9708|Incidence of an indirect tax|间接税税负归宿|KP055|Tax incidence describes how the burden of a tax is shared between producers and consumers.|税负归宿说明一项税收的实际负担如何在生产者和消费者之间分担。

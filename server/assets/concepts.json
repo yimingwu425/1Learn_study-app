@@ -1,0 +1,501 @@
+[
+  [
+    "scarcity",
+    "稀缺性",
+    "resource allocation",
+    "资源配置",
+    "choice"
+  ],
+  [
+    "opportunity cost",
+    "机会成本",
+    "trade-off",
+    "权衡"
+  ],
+  [
+    "production possibility curve",
+    "ppc",
+    "生产可能性曲线",
+    "capital goods",
+    "consumer goods"
+  ],
+  [
+    "demand",
+    "需求",
+    "law of demand",
+    "demand curve",
+    "effective demand"
+  ],
+  [
+    "supply",
+    "供给",
+    "law of supply",
+    "supply curve",
+    "cost of production"
+  ],
+  [
+    "elasticity",
+    "弹性",
+    "ped",
+    "price elasticity",
+    "elastic",
+    "inelastic"
+  ],
+  [
+    "income elasticity",
+    "yed",
+    "收入弹性",
+    "normal goods",
+    "inferior goods"
+  ],
+  [
+    "cross elasticity",
+    "xed",
+    "交叉弹性",
+    "substitutes",
+    "complements"
+  ],
+  [
+    "price elasticity of supply",
+    "pes",
+    "供给价格弹性"
+  ],
+  [
+    "equilibrium",
+    "均衡",
+    "market clearing",
+    "shortage",
+    "surplus",
+    "过剩",
+    "短缺"
+  ],
+  [
+    "consumer surplus",
+    "消费者剩余",
+    "producer surplus",
+    "生产者剩余",
+    "welfare"
+  ],
+  [
+    "market failure",
+    "市场失灵",
+    "allocative inefficiency",
+    "externalities",
+    "外部性"
+  ],
+  [
+    "public goods",
+    "公共品",
+    "non-rival",
+    "non-excludable",
+    "merit goods",
+    "优值品"
+  ],
+  [
+    "price ceiling",
+    "maximum price",
+    "最高限价",
+    "price control"
+  ],
+  [
+    "price floor",
+    "minimum price",
+    "最低限价",
+    "minimum wage"
+  ],
+  [
+    "tax",
+    "indirect tax",
+    "间接税",
+    "specific tax",
+    "ad valorem",
+    "税负"
+  ],
+  [
+    "subsidy",
+    "补贴",
+    "government grant"
+  ],
+  [
+    "gdp",
+    "national income",
+    "国内生产总值",
+    "国民收入",
+    "economic growth",
+    "经济增长"
+  ],
+  [
+    "inflation",
+    "通货膨胀",
+    "cpi",
+    "price level",
+    "deflation",
+    "通缩",
+    "物价"
+  ],
+  [
+    "unemployment",
+    "失业",
+    "structural unemployment",
+    "cyclical",
+    "frictional"
+  ],
+  [
+    "aggregate demand",
+    "ad",
+    "总需求",
+    "consumption",
+    "investment",
+    "net exports"
+  ],
+  [
+    "aggregate supply",
+    "as",
+    "总供给",
+    "sras",
+    "lras"
+  ],
+  [
+    "fiscal policy",
+    "财政政策",
+    "budget deficit",
+    "government spending",
+    "taxation"
+  ],
+  [
+    "monetary policy",
+    "货币政策",
+    "interest rates",
+    "money supply",
+    "利率"
+  ],
+  [
+    "supply-side policy",
+    "供给侧政策",
+    "productivity",
+    "deregulation"
+  ],
+  [
+    "comparative advantage",
+    "比较优势",
+    "absolute advantage",
+    "international trade",
+    "国际贸易"
+  ],
+  [
+    "tariff",
+    "quota",
+    "protectionism",
+    "贸易保护",
+    "关税",
+    "配额"
+  ],
+  [
+    "exchange rate",
+    "汇率",
+    "depreciation",
+    "appreciation",
+    "currency",
+    "外汇"
+  ],
+  [
+    "balance of payments",
+    "current account",
+    "经常账户",
+    "trade deficit",
+    "贸易逆差"
+  ],
+  [
+    "si units",
+    "base units",
+    "基本单位",
+    "derived units",
+    "导出单位",
+    "prefixes"
+  ],
+  [
+    "uncertainty",
+    "error",
+    "不确定度",
+    "误差",
+    "systematic error",
+    "random error",
+    "accuracy",
+    "precision"
+  ],
+  [
+    "scalar",
+    "vector",
+    "标量",
+    "矢量",
+    "resultant",
+    "resolution",
+    "分解"
+  ],
+  [
+    "velocity",
+    "acceleration",
+    "速度",
+    "加速度",
+    "speed",
+    "displacement",
+    "位移"
+  ],
+  [
+    "kinematics",
+    "equations of motion",
+    "suvat",
+    "匀加速直线运动",
+    "free fall",
+    "自由落体"
+  ],
+  [
+    "projectile motion",
+    "抛体运动",
+    "trajectory",
+    "horizontal velocity",
+    "vertical"
+  ],
+  [
+    "newton's laws",
+    "牛顿定律",
+    "force",
+    "net force",
+    "inertia",
+    "惯性"
+  ],
+  [
+    "momentum",
+    "动量",
+    "conservation of momentum",
+    "动量守恒",
+    "impulse",
+    "冲量",
+    "collision",
+    "碰撞"
+  ],
+  [
+    "elastic collision",
+    "inelastic collision",
+    "弹性碰撞",
+    "非弹性碰撞"
+  ],
+  [
+    "moment",
+    "torque",
+    "力矩",
+    "couple",
+    "力偶",
+    "equilibrium",
+    "平衡",
+    "pivot"
+  ],
+  [
+    "center of gravity",
+    "重心",
+    "stability"
+  ],
+  [
+    "density",
+    "密度",
+    "pressure",
+    "压强",
+    "hydrostatic pressure",
+    "液体压强"
+  ],
+  [
+    "upthrust",
+    "buoyancy",
+    "archimedes",
+    "浮力",
+    "阿基米德"
+  ],
+  [
+    "work",
+    "功",
+    "energy",
+    "能量",
+    "power",
+    "功率",
+    "efficiency",
+    "效率"
+  ],
+  [
+    "kinetic energy",
+    "动能",
+    "potential energy",
+    "势能",
+    "gpe",
+    "gravitational"
+  ],
+  [
+    "conservation of energy",
+    "能量守恒"
+  ],
+  [
+    "stress",
+    "strain",
+    "应力",
+    "应变",
+    "young modulus",
+    "杨氏模量",
+    "hooke's law",
+    "胡克定律"
+  ],
+  [
+    "elastic deformation",
+    "plastic deformation",
+    "弹性形变",
+    "塑性形变",
+    "elastic limit"
+  ],
+  [
+    "progressive wave",
+    "行波",
+    "wavelength",
+    "波长",
+    "frequency",
+    "频率",
+    "amplitude",
+    "振幅",
+    "period",
+    "周期"
+  ],
+  [
+    "transverse wave",
+    "longitudinal wave",
+    "横波",
+    "纵波",
+    "compression",
+    "rarefaction"
+  ],
+  [
+    "doppler effect",
+    "多普勒效应",
+    "frequency shift",
+    "redshift"
+  ],
+  [
+    "electromagnetic spectrum",
+    "电磁波谱",
+    "visible light",
+    "x-ray",
+    "gamma",
+    "ultraviolet",
+    "infrared",
+    "radio"
+  ],
+  [
+    "polarisation",
+    "polarizer",
+    "偏振",
+    "malus' law"
+  ],
+  [
+    "stationary wave",
+    "standing wave",
+    "驻波",
+    "node",
+    "antinode",
+    "波节",
+    "波腹"
+  ],
+  [
+    "diffraction",
+    "衍射",
+    "single slit",
+    "diffraction grating",
+    "光栅"
+  ],
+  [
+    "interference",
+    "干涉",
+    "double slit",
+    "双缝干涉",
+    "coherence",
+    "相干",
+    "path difference",
+    "fringes"
+  ],
+  [
+    "electric current",
+    "电流",
+    "charge",
+    "电荷",
+    "drift velocity",
+    "漂移速度"
+  ],
+  [
+    "potential difference",
+    "voltage",
+    "电势差",
+    "电压",
+    "emf",
+    "electromotive force",
+    "电动势"
+  ],
+  [
+    "resistance",
+    "电阻",
+    "resistivity",
+    "电阻率",
+    "ohm's law",
+    "欧姆定律",
+    "i-v characteristic"
+  ],
+  [
+    "internal resistance",
+    "内阻",
+    "terminal p.d.",
+    "端电压",
+    "lost volts"
+  ],
+  [
+    "kirchhoff's laws",
+    "基尔霍夫定律",
+    "junction rule",
+    "loop rule"
+  ],
+  [
+    "potential divider",
+    "分压器",
+    "thermistor",
+    "热敏电阻",
+    "ldr",
+    "光敏电阻",
+    "sensor"
+  ],
+  [
+    "atom",
+    "nucleus",
+    "原子核",
+    "proton",
+    "neutron",
+    "electron",
+    "质子",
+    "中子",
+    "电子",
+    "isotope",
+    "同位素"
+  ],
+  [
+    "radioactive decay",
+    "放射性衰变",
+    "alpha",
+    "beta",
+    "gamma",
+    "half-life",
+    "半衰期"
+  ],
+  [
+    "quark",
+    "夸克",
+    "hadron",
+    "强子",
+    "baryon",
+    "meson",
+    "lepton",
+    "轻子",
+    "neutrino"
+  ]
+]

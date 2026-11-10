@@ -1,0 +1,41 @@
+{
+  "9702:14153": {
+    "source": "9702_s20_23",
+    "questionNo": "1(a)",
+    "fileId": "99f5ece6-9a91-5754-be89-a8ee6cb1296b",
+    "sourceSha256": "b4d2644cc827c2d69838aee5ecf14401c133f096a4885aadb32946d7245a746f",
+    "originalPages": [
+      10
+    ],
+    "pages": [
+      8
+    ],
+    "basis": "Exact structured labels 1(a), 1(b)(i), 1(b)(ii) occur on original MS PDF page 8; the old index is two pages late. Original database and metadata remain unchanged."
+  },
+  "9702:14154": {
+    "source": "9702_s20_23",
+    "questionNo": "1(b)(i)",
+    "fileId": "99f5ece6-9a91-5754-be89-a8ee6cb1296b",
+    "sourceSha256": "b4d2644cc827c2d69838aee5ecf14401c133f096a4885aadb32946d7245a746f",
+    "originalPages": [
+      10
+    ],
+    "pages": [
+      8
+    ],
+    "basis": "Exact structured labels 1(a), 1(b)(i), 1(b)(ii) occur on original MS PDF page 8; the old index is two pages late. Original database and metadata remain unchanged."
+  },
+  "9702:14155": {
+    "source": "9702_s20_23",
+    "questionNo": "1(b)(ii)",
+    "fileId": "99f5ece6-9a91-5754-be89-a8ee6cb1296b",
+    "sourceSha256": "b4d2644cc827c2d69838aee5ecf14401c133f096a4885aadb32946d7245a746f",
+    "originalPages": [
+      10
+    ],
+    "pages": [
+      8
+    ],
+    "basis": "Exact structured labels 1(a), 1(b)(i), 1(b)(ii) occur on original MS PDF page 8; the old index is two pages late. Original database and metadata remain unchanged."
+  }
+}

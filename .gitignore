@@ -1,0 +1,16 @@
+.toolchain/
+server/target/
+web/node_modules/
+web/dist/
+data/
+.DS_Store
+*.log
+.venv/
+__pycache__/
+*.pyc
+web/*.tsbuildinfo
+desktop/target/
+desktop/node_modules/
+desktop/src-tauri/target/
+
+data-validation/

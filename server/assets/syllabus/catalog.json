@@ -1,0 +1,1693 @@
+{
+  "9708": {
+    "source": "9708_2026-2028_Syllabus.pdf",
+    "sourceSha256": "0f02e7efdc1175b58b165665f08a54c0c4a82226a3b79492ea9c681dca7db0d8",
+    "translationNote": "中文为对照英文考纲核对的学习释义，并非 Cambridge 官方译文。公式的独立字形转写为可读文字。",
+    "points": {
+      "KP001": {
+        "en": "fundamental economic problem of scarcity",
+        "cn": "稀缺性这一基本经济问题",
+        "page": 15,
+        "syllabusRef": "1.1.1"
+      },
+      "KP002": {
+        "en": "need to make choices at all levels (individuals, firms, governments)",
+        "cn": "个人、企业和政府等各个层面都需要作出选择",
+        "page": 15,
+        "syllabusRef": "1.1.2"
+      },
+      "KP003": {
+        "en": "nature and definition of opportunity cost, arising from choices",
+        "cn": "选择所产生的机会成本：性质与定义",
+        "page": 15,
+        "syllabusRef": "1.1.3"
+      },
+      "KP004": {
+        "en": "basic questions of resource allocation • what to produce • how to produce • for whom to produce",
+        "cn": "资源配置的三个基本问题：生产什么、如何生产、为谁生产",
+        "page": 15,
+        "syllabusRef": "1.1.4"
+      },
+      "KP005": {
+        "en": "economics as a social science",
+        "cn": "经济学作为一门社会科学",
+        "page": 15,
+        "syllabusRef": "1.2.1"
+      },
+      "KP006": {
+        "en": "positive and normative statements (the distinction between facts and value judgements)",
+        "cn": "实证陈述与规范陈述：事实与价值判断的区别",
+        "page": 15,
+        "syllabusRef": "1.2.2"
+      },
+      "KP007": {
+        "en": "meaning of the term ceteris paribus",
+        "cn": "“其他条件不变”（ceteris paribus）的含义",
+        "page": 15,
+        "syllabusRef": "1.2.3"
+      },
+      "KP008": {
+        "en": "importance of the time period (short run, long run, very long run)",
+        "cn": "时间跨度的重要性：短期、长期与超长期",
+        "page": 15,
+        "syllabusRef": "1.2.4"
+      },
+      "KP009": {
+        "en": "nature and definition of factors of production: land, labour, capital and enterprise",
+        "cn": "生产要素的性质与定义：土地、劳动、资本与企业家才能",
+        "page": 16,
+        "syllabusRef": "1.3.1"
+      },
+      "KP010": {
+        "en": "difference between human capital and physical capital",
+        "cn": "人力资本与实物资本的区别",
+        "page": 16,
+        "syllabusRef": "1.3.2"
+      },
+      "KP011": {
+        "en": "rewards to the factors of production",
+        "cn": "各生产要素获得的报酬",
+        "page": 16,
+        "syllabusRef": "1.3.3"
+      },
+      "KP012": {
+        "en": "division of labour and specialisation",
+        "cn": "劳动分工与专业化",
+        "page": 16,
+        "syllabusRef": "1.3.4"
+      },
+      "KP013": {
+        "en": "role of the entrepreneur in contemporary economies: risk and organisation of the other factors of production",
+        "cn": "现代经济中企业家的作用：承担风险并组织其他生产要素",
+        "page": 16,
+        "syllabusRef": "1.3.5"
+      },
+      "KP014": {
+        "en": "decision-making in market, planned and mixed economies",
+        "cn": "市场经济、计划经济和混合经济中的决策方式",
+        "page": 16,
+        "syllabusRef": "1.4.1"
+      },
+      "KP015": {
+        "en": "resource allocation in these economic systems",
+        "cn": "不同经济体制中的资源配置",
+        "page": 16,
+        "syllabusRef": "1.4.2"
+      },
+      "KP016": {
+        "en": "nature and meaning of a production possibility curve (PPC)",
+        "cn": "生产可能性曲线（PPC）的性质与含义",
+        "page": 16,
+        "syllabusRef": "1.5.1"
+      },
+      "KP017": {
+        "en": "shape of the PPC: constant and increasing opportunity costs",
+        "cn": "PPC 的形状：机会成本不变与机会成本递增",
+        "page": 16,
+        "syllabusRef": "1.5.2"
+      },
+      "KP018": {
+        "en": "causes and consequences of shifts in a PPC",
+        "cn": "PPC 移动的原因与后果",
+        "page": 16,
+        "syllabusRef": "1.5.3"
+      },
+      "KP019": {
+        "en": "significance of a position within a PPC",
+        "cn": "PPC 内部某一点所表示的意义",
+        "page": 16,
+        "syllabusRef": "1.5.4"
+      },
+      "KP020": {
+        "en": "nature and definition of free goods and private goods (economic goods)",
+        "cn": "自由物品与私人物品（经济物品）的性质与定义",
+        "page": 16,
+        "syllabusRef": "1.6.1"
+      },
+      "KP021": {
+        "en": "nature and definition of public goods",
+        "cn": "公共物品的性质与定义",
+        "page": 16,
+        "syllabusRef": "1.6.2"
+      },
+      "KP022": {
+        "en": "nature and definition of merit goods: under-consumption as a result of imperfect information in the market",
+        "cn": "优值品的性质与定义：市场信息不完全导致消费不足",
+        "page": 16,
+        "syllabusRef": "1.6.3"
+      },
+      "KP023": {
+        "en": "nature and definition of demerit goods: over-consumption as a result of imperfect information in the market",
+        "cn": "劣值品的性质与定义：市场信息不完全导致过度消费",
+        "page": 16,
+        "syllabusRef": "1.6.4"
+      },
+      "KP024": {
+        "en": "effective demand",
+        "cn": "有效需求",
+        "page": 17,
+        "syllabusRef": "2.1.1"
+      },
+      "KP025": {
+        "en": "individual and market demand and supply",
+        "cn": "个人与市场的需求和供给",
+        "page": 17,
+        "syllabusRef": "2.1.2"
+      },
+      "KP026": {
+        "en": "determinants of demand",
+        "cn": "需求的决定因素",
+        "page": 17,
+        "syllabusRef": "2.1.3"
+      },
+      "KP027": {
+        "en": "determinants of supply",
+        "cn": "供给的决定因素",
+        "page": 17,
+        "syllabusRef": "2.1.4"
+      },
+      "KP028": {
+        "en": "causes of a shift in the demand curve (D)",
+        "cn": "需求曲线（D）移动的原因",
+        "page": 17,
+        "syllabusRef": "2.1.5"
+      },
+      "KP029": {
+        "en": "causes of a shift in the supply curve (S)",
+        "cn": "供给曲线（S）移动的原因",
+        "page": 17,
+        "syllabusRef": "2.1.6"
+      },
+      "KP030": {
+        "en": "distinction between the shift in the demand or supply curve and the movement along these curves",
+        "cn": "需求或供给曲线整体移动与沿曲线移动的区别",
+        "page": 17,
+        "syllabusRef": "2.1.7"
+      },
+      "KP031": {
+        "en": "definition of price elasticity, income elasticity and cross elasticity of demand (PED, YED, XED)",
+        "cn": "需求价格弹性、收入弹性和交叉弹性的定义（PED、YED、XED）",
+        "page": 17,
+        "syllabusRef": "2.2.1"
+      },
+      "KP032": {
+        "en": "formulae for and calculation of price elasticity, income elasticity and cross elasticity of demand",
+        "cn": "需求价格弹性、收入弹性和交叉弹性的公式与计算",
+        "page": 17,
+        "syllabusRef": "2.2.2"
+      },
+      "KP033": {
+        "en": "significance of relative percentage changes, the size and sign of the coefficient of: • price elasticity of demand • income elasticity of demand • cross elasticity of demand",
+        "cn": "相对百分比变动以及 PED、YED、XED 系数大小和正负号的意义",
+        "page": 17,
+        "syllabusRef": "2.2.3"
+      },
+      "KP034": {
+        "en": "descriptions of elasticity values: perfectly elastic, (highly) elastic, unitary elasticity, (highly) inelastic, perfectly inelastic",
+        "cn": "弹性取值的描述：完全弹性、富有弹性、单位弹性、缺乏弹性、完全无弹性",
+        "page": 17,
+        "syllabusRef": "2.2.4"
+      },
+      "KP035": {
+        "en": "variation in price elasticity of demand along the length of a straight-line demand curve",
+        "cn": "沿直线需求曲线的需求价格弹性如何变化",
+        "page": 17,
+        "syllabusRef": "2.2.5"
+      },
+      "KP036": {
+        "en": "factors affecting: • price elasticity of demand • income elasticity of demand • cross elasticity of demand",
+        "cn": "影响需求价格弹性、收入弹性和交叉弹性的因素",
+        "page": 17,
+        "syllabusRef": "2.2.6"
+      },
+      "KP037": {
+        "en": "relationship between price elasticity of demand and total expenditure on a product",
+        "cn": "需求价格弹性与某产品总支出的关系",
+        "page": 17,
+        "syllabusRef": "2.2.7"
+      },
+      "KP038": {
+        "en": "implications for decision-making of price elasticity, income elasticity and cross elasticity of demand",
+        "cn": "需求价格弹性、收入弹性和交叉弹性对决策的启示",
+        "page": 17,
+        "syllabusRef": "2.2.8"
+      },
+      "KP039": {
+        "en": "definition of price elasticity of supply (PES)",
+        "cn": "供给价格弹性（PES）的定义",
+        "page": 18,
+        "syllabusRef": "2.3.1"
+      },
+      "KP040": {
+        "en": "formula for and calculation of price elasticity of supply",
+        "cn": "供给价格弹性的公式与计算",
+        "page": 18,
+        "syllabusRef": "2.3.2"
+      },
+      "KP041": {
+        "en": "significance of relative percentage changes, the size and sign of the coefficient of price elasticity of supply",
+        "cn": "相对百分比变动以及供给价格弹性系数大小和正负号的意义",
+        "page": 18,
+        "syllabusRef": "2.3.3"
+      },
+      "KP042": {
+        "en": "factors affecting price elasticity of supply",
+        "cn": "影响供给价格弹性的因素",
+        "page": 18,
+        "syllabusRef": "2.3.4"
+      },
+      "KP043": {
+        "en": "implications for speed and ease with which firms react to changed market conditions",
+        "cn": "企业应对市场条件变化的速度和难易程度",
+        "page": 18,
+        "syllabusRef": "2.3.5"
+      },
+      "KP044": {
+        "en": "definition of market equilibrium and disequilibrium",
+        "cn": "市场均衡与非均衡的定义",
+        "page": 18,
+        "syllabusRef": "2.4.1"
+      },
+      "KP045": {
+        "en": "effects of shifts in demand and supply curves on equilibrium price and quantity",
+        "cn": "需求和供给曲线移动对均衡价格与均衡数量的影响",
+        "page": 18,
+        "syllabusRef": "2.4.2"
+      },
+      "KP046": {
+        "en": "relationships between different markets: • joint demand (complements) • alternative demand (substitutes) • derived demand • joint supply",
+        "cn": "不同市场之间的关系：联合需求（互补品）、替代需求（替代品）、派生需求、联合供给",
+        "page": 18,
+        "syllabusRef": "2.4.3"
+      },
+      "KP047": {
+        "en": "functions of price in resource allocation; rationing, signalling (transmission of preferences) and incentivising",
+        "cn": "价格在资源配置中的作用：配给、传递信号（反映偏好）和提供激励",
+        "page": 18,
+        "syllabusRef": "2.4.4"
+      },
+      "KP048": {
+        "en": "meaning and significance of consumer surplus",
+        "cn": "消费者剩余的含义与意义",
+        "page": 18,
+        "syllabusRef": "2.5.1"
+      },
+      "KP049": {
+        "en": "meaning and significance of producer surplus",
+        "cn": "生产者剩余的含义与意义",
+        "page": 18,
+        "syllabusRef": "2.5.2"
+      },
+      "KP050": {
+        "en": "causes of changes in consumer and producer surplus",
+        "cn": "消费者剩余与生产者剩余发生变化的原因",
+        "page": 18,
+        "syllabusRef": "2.5.3"
+      },
+      "KP051": {
+        "en": "significance of price elasticity of demand and of supply in determining the extent of these changes",
+        "cn": "需求与供给价格弹性如何决定这些剩余变化的幅度",
+        "page": 18,
+        "syllabusRef": "2.5.4"
+      },
+      "KP052": {
+        "en": "addressing the non-provision of public goods",
+        "cn": "解决公共物品供给缺失的问题",
+        "page": 18,
+        "syllabusRef": "3.1.1"
+      },
+      "KP053": {
+        "en": "addressing the over-consumption of demerit goods and the under-consumption of merit goods",
+        "cn": "解决劣值品过度消费与优值品消费不足的问题",
+        "page": 18,
+        "syllabusRef": "3.1.2"
+      },
+      "KP054": {
+        "en": "controlling prices in markets",
+        "cn": "对市场价格进行管制",
+        "page": 18,
+        "syllabusRef": "3.1.3"
+      },
+      "KP055": {
+        "en": "impact and incidence of specific indirect taxes",
+        "cn": "从量间接税的影响与税负归宿",
+        "page": 19,
+        "syllabusRef": "3.2.1"
+      },
+      "KP056": {
+        "en": "impact and incidence of subsidies",
+        "cn": "补贴的影响与补贴利益的归属",
+        "page": 19,
+        "syllabusRef": "3.2.2"
+      },
+      "KP057": {
+        "en": "direct provision of goods and services",
+        "cn": "政府直接提供商品与服务",
+        "page": 19,
+        "syllabusRef": "3.2.3"
+      },
+      "KP058": {
+        "en": "maximum and minimum prices",
+        "cn": "最高限价与最低限价",
+        "page": 19,
+        "syllabusRef": "3.2.4"
+      },
+      "KP059": {
+        "en": "buffer stock schemes",
+        "cn": "缓冲存货计划",
+        "page": 19,
+        "syllabusRef": "3.2.5"
+      },
+      "KP060": {
+        "en": "provision of information",
+        "cn": "提供信息",
+        "page": 19,
+        "syllabusRef": "3.2.6"
+      },
+      "KP061": {
+        "en": "difference between income as a flow concept and wealth as a stock concept",
+        "cn": "收入这一流量概念与财富这一存量概念的区别",
+        "page": 19,
+        "syllabusRef": "3.3.1"
+      },
+      "KP062": {
+        "en": "measuring income and wealth inequality: • Gini coefficient (calculation not required)",
+        "cn": "衡量收入与财富不平等：基尼系数（不要求计算）",
+        "page": 19,
+        "syllabusRef": "3.3.2"
+      },
+      "KP063": {
+        "en": "economic reasons for inequality of income and wealth",
+        "cn": "收入与财富不平等的经济原因",
+        "page": 19,
+        "syllabusRef": "3.3.3"
+      },
+      "KP064": {
+        "en": "policies to redistribute income and wealth: • minimum wage • transfer payments • progressive income taxes, inheritance and capital taxes • state provision of essential goods and services",
+        "cn": "再分配收入与财富的政策：最低工资、转移支付、累进所得税、遗产税和资本税，以及政府提供基本商品与服务",
+        "page": 19,
+        "syllabusRef": "3.3.4"
+      },
+      "KP065": {
+        "en": "meaning of national income",
+        "cn": "国民收入的含义",
+        "page": 19,
+        "syllabusRef": "4.1.1"
+      },
+      "KP066": {
+        "en": "measurement of national income: • Gross Domestic Product (GDP) • Gross National Income (GNI) • Net National Income (NNI)",
+        "cn": "国民收入的衡量：国内生产总值（GDP）、国民总收入（GNI）、国民净收入（NNI）",
+        "page": 19,
+        "syllabusRef": "4.1.2"
+      },
+      "KP067": {
+        "en": "adjustment of measures from market prices to basic prices",
+        "cn": "将按市场价格计算的指标调整为按基本价格计算",
+        "page": 19,
+        "syllabusRef": "4.1.3"
+      },
+      "KP068": {
+        "en": "adjustment of measures from gross values to net values",
+        "cn": "将总值指标调整为净值指标",
+        "page": 19,
+        "syllabusRef": "4.1.4"
+      },
+      "KP069": {
+        "en": "circular flow of income in a closed economy and an open economy: the flow of income between households, firms and government and the international economy",
+        "cn": "封闭与开放经济中的收入循环：家庭、企业、政府及国际经济之间的收入流动",
+        "page": 20,
+        "syllabusRef": "4.2.1"
+      },
+      "KP070": {
+        "en": "injections and leakages (multiplier not required)",
+        "cn": "收入循环中的注入与漏出（不要求乘数）",
+        "page": 20,
+        "syllabusRef": "4.2.2"
+      },
+      "KP071": {
+        "en": "equilibrium and disequilibrium (marginal and average propensities not required)",
+        "cn": "收入循环中的均衡与非均衡（不要求边际和平均倾向）",
+        "page": 20,
+        "syllabusRef": "4.2.3"
+      },
+      "KP072": {
+        "en": "definition of Aggregate Demand (AD)",
+        "cn": "总需求（AD）的定义",
+        "page": 20,
+        "syllabusRef": "4.3.1"
+      },
+      "KP073": {
+        "en": "components of AD and their meanings: AD = C + I + G + (X – M)",
+        "cn": "总需求的构成及含义：AD = C + I + G + (X − M)",
+        "page": 20,
+        "syllabusRef": "4.3.2"
+      },
+      "KP074": {
+        "en": "determinants of AD (detailed knowledge of the components of AD is not required)",
+        "cn": "总需求的决定因素（不要求详细掌握各组成部分）",
+        "page": 20,
+        "syllabusRef": "4.3.3"
+      },
+      "KP075": {
+        "en": "shape of the AD curve (downward sloping)",
+        "cn": "总需求曲线的形状：向下倾斜",
+        "page": 20,
+        "syllabusRef": "4.3.4"
+      },
+      "KP076": {
+        "en": "causes of a shift in the AD curve",
+        "cn": "总需求曲线移动的原因",
+        "page": 20,
+        "syllabusRef": "4.3.5"
+      },
+      "KP077": {
+        "en": "definition of Aggregate Supply (AS)",
+        "cn": "总供给（AS）的定义",
+        "page": 20,
+        "syllabusRef": "4.3.6"
+      },
+      "KP078": {
+        "en": "determinants of AS",
+        "cn": "总供给的决定因素",
+        "page": 20,
+        "syllabusRef": "4.3.7"
+      },
+      "KP079": {
+        "en": "shape of the AS curve in the short run (SRAS, upward sloping line or sweeping curve) and the long run (LRAS, either a vertical line or in three sections – highly elastic, upward sloping, vertical)",
+        "cn": "短期总供给（SRAS）的形状：向上倾斜的直线或曲线；长期总供给（LRAS）：垂直线，或依次为高弹性、向上倾斜和垂直的三段曲线",
+        "page": 20,
+        "syllabusRef": "4.3.8"
+      },
+      "KP080": {
+        "en": "causes of a shift in the AS curve in the short run (SRAS) and in the long run (LRAS)",
+        "cn": "短期与长期总供给曲线移动的原因",
+        "page": 20,
+        "syllabusRef": "4.3.9"
+      },
+      "KP081": {
+        "en": "distinction between a movement along and a shift in AD and AS",
+        "cn": "沿总需求／总供给曲线移动与曲线整体移动的区别",
+        "page": 20,
+        "syllabusRef": "4.3.10"
+      },
+      "KP082": {
+        "en": "establishment of equilibrium in the AD/AS model and the determination of the level of real output, the price level and employment",
+        "cn": "AD/AS 模型中均衡的形成，以及实际产出、物价水平和就业水平的决定",
+        "page": 20,
+        "syllabusRef": "4.3.11"
+      },
+      "KP083": {
+        "en": "effects of shifts in the AD curve and the AS curve on the level of real output, the price level and employment",
+        "cn": "AD 与 AS 曲线移动对实际产出、物价水平和就业水平的影响",
+        "page": 20,
+        "syllabusRef": "4.3.12"
+      },
+      "KP084": {
+        "en": "meaning of economic growth",
+        "cn": "经济增长的含义",
+        "page": 20,
+        "syllabusRef": "4.4.1"
+      },
+      "KP085": {
+        "en": "measurement of economic growth",
+        "cn": "经济增长的衡量",
+        "page": 20,
+        "syllabusRef": "4.4.2"
+      },
+      "KP086": {
+        "en": "distinction between growth in nominal GDP and real GDP",
+        "cn": "名义 GDP 增长与实际 GDP 增长的区别",
+        "page": 20,
+        "syllabusRef": "4.4.3"
+      },
+      "KP087": {
+        "en": "causes of economic growth",
+        "cn": "经济增长的原因",
+        "page": 20,
+        "syllabusRef": "4.4.4"
+      },
+      "KP088": {
+        "en": "consequences of economic growth",
+        "cn": "经济增长的后果",
+        "page": 20,
+        "syllabusRef": "4.4.5"
+      },
+      "KP089": {
+        "en": "meaning of unemployment",
+        "cn": "失业的含义",
+        "page": 20,
+        "syllabusRef": "4.5.1"
+      },
+      "KP090": {
+        "en": "measures of unemployment, with reference to possible difficulties in measurement",
+        "cn": "失业的衡量方法及可能遇到的衡量困难",
+        "page": 20,
+        "syllabusRef": "4.5.2"
+      },
+      "KP091": {
+        "en": "causes and types of unemployment: frictional, structural, cyclical, seasonal and technological",
+        "cn": "失业的原因与类型：摩擦性、结构性、周期性、季节性和技术性失业",
+        "page": 20,
+        "syllabusRef": "4.5.3"
+      },
+      "KP092": {
+        "en": "consequences of unemployment",
+        "cn": "失业的后果",
+        "page": 20,
+        "syllabusRef": "4.5.4"
+      },
+      "KP093": {
+        "en": "definition of inflation, deflation and disinflation",
+        "cn": "通货膨胀、通货紧缩与通胀放缓的定义",
+        "page": 21,
+        "syllabusRef": "4.6.1"
+      },
+      "KP094": {
+        "en": "measurement of changes in the price level: • consumer price index (CPI) • possible difficulties in measurement",
+        "cn": "物价水平变动的衡量：消费者价格指数（CPI）及可能遇到的衡量困难",
+        "page": 21,
+        "syllabusRef": "4.6.2"
+      },
+      "KP095": {
+        "en": "distinction between money values (nominal) and real data",
+        "cn": "货币金额（名义数值）与实际数值的区别",
+        "page": 21,
+        "syllabusRef": "4.6.3"
+      },
+      "KP096": {
+        "en": "causes of inflation: cost-push and demand-pull inflation",
+        "cn": "通胀的原因：成本推动型与需求拉动型通胀",
+        "page": 21,
+        "syllabusRef": "4.6.4"
+      },
+      "KP097": {
+        "en": "consequences of inflation",
+        "cn": "通胀的后果",
+        "page": 21,
+        "syllabusRef": "4.6.5"
+      },
+      "KP098": {
+        "en": "use of government policy to achieve macroeconomic objectives: price stability, low unemployment, economic growth (policy conflicts and trade-offs are not required)",
+        "cn": "运用政府政策实现物价稳定、低失业和经济增长等宏观目标（不要求政策冲突和权衡）",
+        "page": 21,
+        "syllabusRef": "5.1.1"
+      },
+      "KP099": {
+        "en": "meaning of government budget",
+        "cn": "政府预算的含义",
+        "page": 21,
+        "syllabusRef": "5.2.1"
+      },
+      "KP100": {
+        "en": "distinction between a government budget deficit and a government budget surplus",
+        "cn": "政府预算赤字与预算盈余的区别",
+        "page": 21,
+        "syllabusRef": "5.2.2"
+      },
+      "KP101": {
+        "en": "meaning and significance of the national debt",
+        "cn": "国债的含义与意义",
+        "page": 21,
+        "syllabusRef": "5.2.3"
+      },
+      "KP102": {
+        "en": "taxation: • types of taxes: direct/indirect, progressive/regressive/proportional • rates of tax: marginal and average rates of taxation (mrt, art) • reasons for taxation",
+        "cn": "税收：直接税／间接税，累进税／累退税／比例税；边际与平均税率（mrt、art）；征税的原因",
+        "page": 21,
+        "syllabusRef": "5.2.4"
+      },
+      "KP103": {
+        "en": "government spending: • types of spending: capital (investment) and current • reasons for government spending",
+        "cn": "政府支出：资本（投资）支出与经常性支出；政府支出的原因",
+        "page": 21,
+        "syllabusRef": "5.2.5"
+      },
+      "KP104": {
+        "en": "distinction between expansionary and contractionary fiscal policy",
+        "cn": "扩张性与紧缩性财政政策的区别",
+        "page": 21,
+        "syllabusRef": "5.2.6"
+      },
+      "KP105": {
+        "en": "AD/AS analysis of the impact of expansionary and contractionary fiscal policy on the equilibrium level of national income and the level of real output, the price level and employment",
+        "cn": "用 AD/AS 分析扩张性与紧缩性财政政策对均衡国民收入、实际产出、物价水平和就业水平的影响",
+        "page": 21,
+        "syllabusRef": "5.2.7"
+      },
+      "KP106": {
+        "en": "definition of monetary policy",
+        "cn": "货币政策的定义",
+        "page": 22,
+        "syllabusRef": "5.3.1"
+      },
+      "KP107": {
+        "en": "tools of monetary policy: interest rates, money supply and credit regulations",
+        "cn": "货币政策工具：利率、货币供给与信贷管制",
+        "page": 22,
+        "syllabusRef": "5.3.2"
+      },
+      "KP108": {
+        "en": "distinction between expansionary and contractionary monetary policy",
+        "cn": "扩张性与紧缩性货币政策的区别",
+        "page": 22,
+        "syllabusRef": "5.3.3"
+      },
+      "KP109": {
+        "en": "AD/AS analysis of the impact of expansionary and contractionary monetary policy on the equilibrium national income and the level of real output, the price level and employment",
+        "cn": "用 AD/AS 分析扩张性与紧缩性货币政策对均衡国民收入、实际产出、物价水平和就业水平的影响",
+        "page": 22,
+        "syllabusRef": "5.3.4"
+      },
+      "KP110": {
+        "en": "meaning of supply-side policy, in terms of its effect on LRAS curves",
+        "cn": "从对 LRAS 曲线的影响理解供给侧政策的含义",
+        "page": 22,
+        "syllabusRef": "5.4.1"
+      },
+      "KP111": {
+        "en": "objectives of supply-side policy: increasing productivity and productive capacity",
+        "cn": "供给侧政策的目标：提高生产率与生产能力",
+        "page": 22,
+        "syllabusRef": "5.4.2"
+      },
+      "KP112": {
+        "en": "tools of supply-side policy, for example training, infrastructure development, support for technological improvement",
+        "cn": "供给侧政策工具，例如培训、基础设施建设和支持技术改进",
+        "page": 22,
+        "syllabusRef": "5.4.3"
+      },
+      "KP113": {
+        "en": "AD/AS analysis of the impact of supply-side policy on the equilibrium national income and the level of real output, the price level and employment",
+        "cn": "用 AD/AS 分析供给侧政策对均衡国民收入、实际产出、物价水平和就业水平的影响",
+        "page": 22,
+        "syllabusRef": "5.4.4"
+      },
+      "KP114": {
+        "en": "distinction between absolute and comparative advantage",
+        "cn": "绝对优势与比较优势的区别",
+        "page": 22,
+        "syllabusRef": "6.1.1"
+      },
+      "KP115": {
+        "en": "benefits of specialisation and free trade (trade liberalisation), including the trading possibility curve",
+        "cn": "专业化与自由贸易（贸易自由化）的好处，包括贸易可能性曲线",
+        "page": 22,
+        "syllabusRef": "6.1.2"
+      },
+      "KP116": {
+        "en": "exports, imports and the terms of trade: • measurement of the terms of trade • causes of changes in the terms of trade • impact of changes in the terms of trade",
+        "cn": "出口、进口与贸易条件：贸易条件的衡量、变动原因及影响",
+        "page": 22,
+        "syllabusRef": "6.1.3"
+      },
+      "KP117": {
+        "en": "limitations of the theories of absolute and comparative advantage",
+        "cn": "绝对优势与比较优势理论的局限",
+        "page": 22,
+        "syllabusRef": "6.1.4"
+      },
+      "KP118": {
+        "en": "meaning of protectionism in the context of international trade",
+        "cn": "国际贸易中保护主义的含义",
+        "page": 22,
+        "syllabusRef": "6.2.1"
+      },
+      "KP119": {
+        "en": "different tools of protection and their impact: • tariffs • import quotas • export subsidies • embargoes • excessive administrative burdens (‘red tape’)",
+        "cn": "不同贸易保护工具及其影响：关税、进口配额、出口补贴、禁运及过度行政程序（“繁文缛节”）",
+        "page": 22,
+        "syllabusRef": "6.2.2"
+      },
+      "KP120": {
+        "en": "arguments for and against protectionism",
+        "cn": "支持与反对贸易保护主义的论据",
+        "page": 22,
+        "syllabusRef": "6.2.3"
+      },
+      "KP121": {
+        "en": "components of the current account of the balance of payments: • current account: trade in goods, trade in services, primary income and secondary income • definition of balance and imbalances (deficit and surplus) in the current account of the balance of payments",
+        "cn": "国际收支经常账户的构成：货物贸易、服务贸易、初次收入和二次收入；经常账户平衡及失衡（赤字与盈余）的定义",
+        "page": 23,
+        "syllabusRef": "6.3.1"
+      },
+      "KP122": {
+        "en": "calculation of: • balance of trade in goods • balance of trade in services • balance of trade in goods and services • current account balance (CAB)",
+        "cn": "计算货物贸易差额、服务贸易差额、货物与服务贸易差额及经常账户余额（CAB）",
+        "page": 23,
+        "syllabusRef": "6.3.2"
+      },
+      "KP123": {
+        "en": "causes of imbalances in the current account of the balance of payments",
+        "cn": "国际收支经常账户失衡的原因",
+        "page": 23,
+        "syllabusRef": "6.3.3"
+      },
+      "KP124": {
+        "en": "consequences of imbalances in the current account of the balance of payments for the domestic and external economy",
+        "cn": "经常账户失衡对国内经济和对外经济的影响",
+        "page": 23,
+        "syllabusRef": "6.3.4"
+      },
+      "KP125": {
+        "en": "definition of exchange rate",
+        "cn": "汇率的定义",
+        "page": 23,
+        "syllabusRef": "6.4.1"
+      },
+      "KP126": {
+        "en": "determination of a floating exchange rate",
+        "cn": "浮动汇率的决定",
+        "page": 23,
+        "syllabusRef": "6.4.2"
+      },
+      "KP127": {
+        "en": "distinction between depreciation and appreciation of a floating exchange rate",
+        "cn": "浮动汇率贬值与升值的区别",
+        "page": 23,
+        "syllabusRef": "6.4.3"
+      },
+      "KP128": {
+        "en": "causes of changes in a floating exchange rate: demand and supply of the currency",
+        "cn": "浮动汇率变动的原因：货币的需求与供给",
+        "page": 23,
+        "syllabusRef": "6.4.4"
+      },
+      "KP129": {
+        "en": "AD/AS analysis of the impact of exchange rate changes on the domestic economy’s equilibrium national income and the level of real output, the price level and employment",
+        "cn": "用 AD/AS 分析汇率变动对本国均衡国民收入、实际产出、物价水平和就业水平的影响",
+        "page": 23,
+        "syllabusRef": "6.4.5"
+      },
+      "KP130": {
+        "en": "government policy objective of stability of the current account",
+        "cn": "政府维持经常账户稳定的政策目标",
+        "page": 23,
+        "syllabusRef": "6.5.1"
+      },
+      "KP131": {
+        "en": "effect of fiscal, monetary, supply-side and protectionist policies on the current account",
+        "cn": "财政政策、货币政策、供给侧政策和贸易保护政策对经常账户的影响",
+        "page": 23,
+        "syllabusRef": "6.5.2"
+      }
+    },
+    "chapters": {
+      "1": "基本经济概念与资源配置",
+      "2": "价格体系与微观经济",
+      "3": "政府微观经济干预",
+      "4": "宏观经济",
+      "5": "政府宏观经济干预",
+      "6": "国际经济问题"
+    }
+  },
+  "9702": {
+    "source": "9702_2025-2027_Syllabus.pdf",
+    "sourceSha256": "1cba1cdca33c51a39dd6dfdc69d612f48967abcd89b6ceacdf9ffd6fa2e2b195",
+    "translationNote": "中文为对照英文考纲核对的学习释义，并非 Cambridge 官方译文。公式的独立字形转写为可读文字。",
+    "points": {
+      "KP001": {
+        "en": "understand that all physical quantities consist of a numerical magnitude and a unit",
+        "cn": "理解一切物理量都由数值大小和单位组成",
+        "page": 16,
+        "syllabusRef": "1.1.1"
+      },
+      "KP002": {
+        "en": "make reasonable estimates of physical quantities included within the syllabus",
+        "cn": "对考纲范围内的物理量作出合理数量级估算",
+        "page": 16,
+        "syllabusRef": "1.1.2"
+      },
+      "KP003": {
+        "en": "recall the following SI base quantities and their units: mass (kg), length (m), time (s), current (A), temperature (K)",
+        "cn": "熟记 SI 基本物理量及其单位：质量 (kg)、长度 (m)、时间 (s)、电流 (A)、温度 (K)",
+        "page": 16,
+        "syllabusRef": "1.2.1"
+      },
+      "KP004": {
+        "en": "express derived units as products or quotients of the SI base units and use the derived units for quantities listed in this syllabus as appropriate",
+        "cn": "将导出单位表示为 SI 基本单位的乘积或商，并用于本考纲所列物理量",
+        "page": 16,
+        "syllabusRef": "1.2.2"
+      },
+      "KP005": {
+        "en": "use SI base units to check the homogeneity of physical equations",
+        "cn": "用 SI 基本单位检验物理方程的量纲一致性",
+        "page": 16,
+        "syllabusRef": "1.2.3"
+      },
+      "KP006": {
+        "en": "recall and use the following prefixes and their symbols to indicate decimal submultiples or multiples of both base and derived units: pico (p), nano (n), micro (μ), milli (m), centi (c), deci (d), kilo (k), mega (M), giga (G), tera (T)",
+        "cn": "熟记并运用词头符号表示基本单位与导出单位的十进倍数与分数：p, n, μ, m, c, d, k, M, G, T",
+        "page": 16,
+        "syllabusRef": "1.2.4"
+      },
+      "KP007": {
+        "en": "understand and explain the effects of systematic errors (including zero errors) and random errors in measurements",
+        "cn": "理解并解释系统误差（含零点误差）与随机误差对测量的影响",
+        "page": 16,
+        "syllabusRef": "1.3.1"
+      },
+      "KP008": {
+        "en": "understand the distinction between precision and accuracy",
+        "cn": "区分精密度（precision）与准确度（accuracy）",
+        "page": 16,
+        "syllabusRef": "1.3.2"
+      },
+      "KP009": {
+        "en": "assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+        "cn": "用绝对不确定度或百分比不确定度的简单相加评估导出量的不确定度",
+        "page": 16,
+        "syllabusRef": "1.3.3"
+      },
+      "KP010": {
+        "en": "understand the difference between scalar and vector quantities and give examples of scalar and vector quantities included in the syllabus",
+        "cn": "理解标量与矢量的区别，并各举考纲内的实例",
+        "page": 16,
+        "syllabusRef": "1.4.1"
+      },
+      "KP011": {
+        "en": "add and subtract coplanar vectors",
+        "cn": "共面矢量的相加与相减",
+        "page": 16,
+        "syllabusRef": "1.4.2"
+      },
+      "KP012": {
+        "en": "represent a vector as two perpendicular components",
+        "cn": "将矢量表示为两个互相垂直的分量",
+        "page": 16,
+        "syllabusRef": "1.4.3"
+      },
+      "KP013": {
+        "en": "define and use distance, displacement, speed, velocity and acceleration",
+        "cn": "定义并运用距离、位移、速率、速度与加速度",
+        "page": 17,
+        "syllabusRef": "2.1.1"
+      },
+      "KP014": {
+        "en": "use graphical methods to represent distance, displacement, speed, velocity and acceleration",
+        "cn": "用图像法表示距离、位移、速率、速度与加速度",
+        "page": 17,
+        "syllabusRef": "2.1.2"
+      },
+      "KP015": {
+        "en": "determine displacement from the area under a velocity–time graph",
+        "cn": "由速度—时间图像下的面积求位移",
+        "page": 17,
+        "syllabusRef": "2.1.3"
+      },
+      "KP016": {
+        "en": "determine velocity using the gradient of a displacement–time graph",
+        "cn": "由位移—时间图像的斜率求速度",
+        "page": 17,
+        "syllabusRef": "2.1.4"
+      },
+      "KP017": {
+        "en": "determine acceleration using the gradient of a velocity–time graph",
+        "cn": "由速度—时间图像的斜率求加速度",
+        "page": 17,
+        "syllabusRef": "2.1.5"
+      },
+      "KP018": {
+        "en": "derive, from the definitions of velocity and acceleration, equations that represent uniformly accelerated motion in a straight line",
+        "cn": "由速度与加速度的定义推导匀变速直线运动方程",
+        "page": 17,
+        "syllabusRef": "2.1.6"
+      },
+      "KP019": {
+        "en": "solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+        "cn": "运用匀变速直线运动方程解题，包括无空气阻力的自由落体",
+        "page": 17,
+        "syllabusRef": "2.1.7"
+      },
+      "KP020": {
+        "en": "describe an experiment to determine the acceleration of free fall using a falling object",
+        "cn": "描述用落体测定自由落体加速度的实验",
+        "page": 17,
+        "syllabusRef": "2.1.8"
+      },
+      "KP021": {
+        "en": "describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+        "cn": "描述并解释一个方向匀速、垂直方向匀加速的二维运动（抛体运动）",
+        "page": 17,
+        "syllabusRef": "2.1.9"
+      },
+      "KP022": {
+        "en": "understand that mass is the property of an object that resists change in motion",
+        "cn": "理解质量是物体抵抗运动状态改变的性质",
+        "page": 17,
+        "syllabusRef": "3.1.1"
+      },
+      "KP023": {
+        "en": "recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+        "cn": "熟记 F = ma 并用其解题，理解加速度与合力方向始终相同",
+        "page": 17,
+        "syllabusRef": "3.1.2"
+      },
+      "KP024": {
+        "en": "define and use linear momentum as the product of mass and velocity",
+        "cn": "定义并运用线动量 p = mv",
+        "page": 17,
+        "syllabusRef": "3.1.3"
+      },
+      "KP025": {
+        "en": "define and use force as rate of change of momentum",
+        "cn": "定义并运用力为动量的变化率",
+        "page": 17,
+        "syllabusRef": "3.1.4"
+      },
+      "KP026": {
+        "en": "state and apply each of Newton’s laws of motion",
+        "cn": "表述并应用牛顿运动三定律",
+        "page": 17,
+        "syllabusRef": "3.1.5"
+      },
+      "KP027": {
+        "en": "describe and use the concept of weight as the effect of a gravitational field on a mass and recall that the weight of an object is equal to the product of its mass and the acceleration of free fall",
+        "cn": "描述并运用重力是引力场对质量的作用，熟记 W = mg",
+        "page": 17,
+        "syllabusRef": "3.1.6"
+      },
+      "KP028": {
+        "en": "show a qualitative understanding of frictional forces and viscous/drag forces including air resistance (no treatment of the coefficients of friction and viscosity is required, and a simple model of drag force increasing as speed increases is sufficient)",
+        "cn": "定性理解摩擦力与黏性阻力（含空气阻力）",
+        "page": 18,
+        "syllabusRef": "3.2.1"
+      },
+      "KP029": {
+        "en": "describe and explain qualitatively the motion of objects in a uniform gravitational field with air resistance",
+        "cn": "定性描述并解释有空气阻力时物体在均匀引力场中的运动",
+        "page": 18,
+        "syllabusRef": "3.2.2"
+      },
+      "KP030": {
+        "en": "understand that objects moving against a resistive force may reach a terminal (constant) velocity",
+        "cn": "理解受到阻力的运动物体可能达到终端（恒定）速度",
+        "page": 18,
+        "syllabusRef": "3.2.3"
+      },
+      "KP031": {
+        "en": "state the principle of conservation of momentum",
+        "cn": "表述动量守恒定律",
+        "page": 18,
+        "syllabusRef": "3.3.1"
+      },
+      "KP032": {
+        "en": "apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+        "cn": "应用动量守恒定律求解一维与二维的弹性/非弹性相互作用",
+        "page": 18,
+        "syllabusRef": "3.3.2"
+      },
+      "KP033": {
+        "en": "recall that, for an elastic collision, total kinetic energy is conserved and the relative speed of approach is equal to the relative speed of separation",
+        "cn": "熟记弹性碰撞中总动能守恒，且相对接近速率等于相对分离速率",
+        "page": 18,
+        "syllabusRef": "3.3.3"
+      },
+      "KP034": {
+        "en": "understand that, while momentum of a system is always conserved in interactions between objects, some change in kinetic energy may take place",
+        "cn": "理解系统动量在相互作用中总守恒，但动能可能改变",
+        "page": 18,
+        "syllabusRef": "3.3.4"
+      },
+      "KP035": {
+        "en": "understand that the weight of an object may be taken as acting at a single point known as its centre of gravity",
+        "cn": "理解物体重力可视为作用于重心这一点",
+        "page": 18,
+        "syllabusRef": "4.1.1"
+      },
+      "KP036": {
+        "en": "define and apply the moment of a force",
+        "cn": "定义并应用力矩",
+        "page": 18,
+        "syllabusRef": "4.1.2"
+      },
+      "KP037": {
+        "en": "understand that a couple is a pair of forces that acts to produce rotation only",
+        "cn": "理解力偶是一对只产生转动效果的力",
+        "page": 18,
+        "syllabusRef": "4.1.3"
+      },
+      "KP038": {
+        "en": "define and apply the torque of a couple",
+        "cn": "定义并应用力偶矩",
+        "page": 18,
+        "syllabusRef": "4.1.4"
+      },
+      "KP039": {
+        "en": "state and apply the principle of moments",
+        "cn": "表述并应用力矩平衡原理",
+        "page": 18,
+        "syllabusRef": "4.2.1"
+      },
+      "KP040": {
+        "en": "understand that, when there is no resultant force and no resultant torque, a system is in equilibrium",
+        "cn": "理解合力与合力矩均为零时系统处于平衡",
+        "page": 18,
+        "syllabusRef": "4.2.2"
+      },
+      "KP041": {
+        "en": "use a vector triangle to represent coplanar forces in equilibrium",
+        "cn": "用矢量三角形表示处于平衡的共面力",
+        "page": 18,
+        "syllabusRef": "4.2.3"
+      },
+      "KP042": {
+        "en": "define and use density",
+        "cn": "定义并运用密度",
+        "page": 19,
+        "syllabusRef": "4.3.1"
+      },
+      "KP043": {
+        "en": "define and use pressure",
+        "cn": "定义并运用压强",
+        "page": 19,
+        "syllabusRef": "4.3.2"
+      },
+      "KP044": {
+        "en": "derive, from the definitions of pressure and density, the equation for hydrostatic pressure ∆p = ρg∆h",
+        "cn": "由压强与密度的定义推导液体静压强公式 Δp = ρgΔh",
+        "page": 19,
+        "syllabusRef": "4.3.3"
+      },
+      "KP045": {
+        "en": "use the equation ∆p = ρg∆h",
+        "cn": "运用 Δp = ρgΔh",
+        "page": 19,
+        "syllabusRef": "4.3.4"
+      },
+      "KP046": {
+        "en": "understand that the upthrust acting on an object in a fluid is due to a difference in hydrostatic pressure",
+        "cn": "理解流体中物体所受浮力源于静压强差",
+        "page": 19,
+        "syllabusRef": "4.3.5"
+      },
+      "KP047": {
+        "en": "calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+        "cn": "用 F = ρgV 计算流体中物体所受浮力（阿基米德原理）",
+        "page": 19,
+        "syllabusRef": "4.3.6"
+      },
+      "KP048": {
+        "en": "understand the concept of work, and recall and use work done = force × displacement in the direction of the force",
+        "cn": "理解功的概念，熟记并运用 W = Fs（力与位移同向）",
+        "page": 19,
+        "syllabusRef": "5.1.1"
+      },
+      "KP049": {
+        "en": "recall and apply the principle of conservation of energy",
+        "cn": "表述并应用能量守恒定律",
+        "page": 19,
+        "syllabusRef": "5.1.2"
+      },
+      "KP050": {
+        "en": "recall and understand that the efficiency of a system is the ratio of useful energy output from the system to the total energy input",
+        "cn": "熟记并理解效率是有用能量输出与总能量输入之比",
+        "page": 19,
+        "syllabusRef": "5.1.3"
+      },
+      "KP051": {
+        "en": "use the concept of efficiency to solve problems",
+        "cn": "运用效率概念解题",
+        "page": 19,
+        "syllabusRef": "5.1.4"
+      },
+      "KP052": {
+        "en": "define power as work done per unit time",
+        "cn": "定义功率为单位时间所做的功",
+        "page": 19,
+        "syllabusRef": "5.1.5"
+      },
+      "KP053": {
+        "en": "solve problems using P = W / t",
+        "cn": "运用 P = W/t 解题",
+        "page": 19,
+        "syllabusRef": "5.1.6"
+      },
+      "KP054": {
+        "en": "derive P = Fv and use it to solve problems",
+        "cn": "推导 P = Fv 并用于解题",
+        "page": 19,
+        "syllabusRef": "5.1.7"
+      },
+      "KP055": {
+        "en": "derive, using W = Fs, the formula ΔEₚ = mgΔh for gravitational potential energy changes in a uniform gravitational field",
+        "cn": "用 W = Fs 推导均匀引力场中重力势能变化公式 ΔEp = mgΔh",
+        "page": 19,
+        "syllabusRef": "5.2.1"
+      },
+      "KP056": {
+        "en": "recall and use the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field",
+        "cn": "熟记并运用 ΔEp = mgΔh",
+        "page": 19,
+        "syllabusRef": "5.2.2"
+      },
+      "KP057": {
+        "en": "derive, using the equations of motion, the formula for kinetic energy Eₖ = ½mv²",
+        "cn": "由运动学方程推导动能公式 Ek = ½mv²",
+        "page": 19,
+        "syllabusRef": "5.2.3"
+      },
+      "KP059": {
+        "en": "recall and use Eₖ = ½mv²",
+        "cn": "熟记并运用 Ek = ½mv²",
+        "page": 19,
+        "syllabusRef": "5.2.4"
+      },
+      "KP061": {
+        "en": "understand that deformation is caused by tensile or compressive forces (forces and deformations will be assumed to be in one dimension only)",
+        "cn": "理解形变由拉伸力或压缩力引起（仅考虑一维情形）",
+        "page": 20,
+        "syllabusRef": "6.1.1"
+      },
+      "KP062": {
+        "en": "understand and use the terms load, extension, compression and limit of proportionality",
+        "cn": "理解并运用载荷、伸长、压缩与比例极限等术语",
+        "page": 20,
+        "syllabusRef": "6.1.2"
+      },
+      "KP063": {
+        "en": "recall and use Hooke’s law",
+        "cn": "熟记并运用胡克定律",
+        "page": 20,
+        "syllabusRef": "6.1.3"
+      },
+      "KP064": {
+        "en": "recall and use the formula for the spring constant k = F / x",
+        "cn": "熟记并运用弹簧劲度系数公式 k = F/x",
+        "page": 20,
+        "syllabusRef": "6.1.4"
+      },
+      "KP065": {
+        "en": "define and use the terms stress, strain and the Young modulus",
+        "cn": "定义并运用应力、应变与杨氏模量",
+        "page": 20,
+        "syllabusRef": "6.1.5"
+      },
+      "KP066": {
+        "en": "describe an experiment to determine the Young modulus of a metal in the form of a wire",
+        "cn": "描述用金属丝测定杨氏模量的实验",
+        "page": 20,
+        "syllabusRef": "6.1.6"
+      },
+      "KP067": {
+        "en": "understand and use the terms elastic deformation, plastic deformation and elastic limit",
+        "cn": "理解并运用弹性形变、塑性形变与弹性极限",
+        "page": 20,
+        "syllabusRef": "6.2.1"
+      },
+      "KP068": {
+        "en": "understand that the area under the force–extension graph represents the work done",
+        "cn": "理解力—伸长曲线下的面积表示所做的功",
+        "page": 20,
+        "syllabusRef": "6.2.2"
+      },
+      "KP069": {
+        "en": "determine the elastic potential energy of a material deformed within its limit of proportionality from the area under the force–extension graph",
+        "cn": "由力—伸长曲线下的面积求比例极限内的弹性势能",
+        "page": 20,
+        "syllabusRef": "6.2.3"
+      },
+      "KP070": {
+        "en": "recall and use Eₚ = ½Fx = ½kx² for a material deformed within its limit of proportionality",
+        "cn": "熟记并运用 EP = ½Fx = ½kx²（比例极限内）",
+        "page": 20,
+        "syllabusRef": "6.2.4"
+      },
+      "KP073": {
+        "en": "describe what is meant by wave motion as illustrated by vibration in ropes, springs and ripple tanks",
+        "cn": "描述波动的含义，以绳、弹簧与水波槽中的振动为例",
+        "page": 20,
+        "syllabusRef": "7.1.1"
+      },
+      "KP074": {
+        "en": "understand and use the terms displacement, amplitude, phase difference, period, frequency, wavelength and speed",
+        "cn": "理解并运用位移、振幅、相位差、周期、频率、波长与波速",
+        "page": 20,
+        "syllabusRef": "7.1.2"
+      },
+      "KP075": {
+        "en": "understand the use of the time-base and y-gain of a cathode-ray oscilloscope (CRO) to determine frequency and amplitude",
+        "cn": "理解示波器的时基与 Y 增益用于测定频率与振幅",
+        "page": 20,
+        "syllabusRef": "7.1.3"
+      },
+      "KP076": {
+        "en": "derive, using the definitions of speed, frequency and wavelength, the wave equation v = f λ",
+        "cn": "由速率、频率与波长的定义推导波方程 v = fλ",
+        "page": 20,
+        "syllabusRef": "7.1.4"
+      },
+      "KP077": {
+        "en": "recall and use v = f λ",
+        "cn": "熟记并运用 v = fλ",
+        "page": 20,
+        "syllabusRef": "7.1.5"
+      },
+      "KP078": {
+        "en": "understand that energy is transferred by a progressive wave",
+        "cn": "理解行波传递能量",
+        "page": 20,
+        "syllabusRef": "7.1.6"
+      },
+      "KP079": {
+        "en": "recall and use intensity = power/area and intensity ∝ (amplitude)2 for a progressive wave",
+        "cn": "熟记并运用行波强度 = 功率／面积，以及强度 ∝ 振幅²",
+        "page": 20,
+        "syllabusRef": "7.1.7"
+      },
+      "KP080": {
+        "en": "compare transverse and longitudinal waves",
+        "cn": "比较横波与纵波",
+        "page": 21,
+        "syllabusRef": "7.2.1"
+      },
+      "KP081": {
+        "en": "analyse and interpret graphical representations of transverse and longitudinal waves",
+        "cn": "分析与解读横波与纵波的图像表示",
+        "page": 21,
+        "syllabusRef": "7.2.2"
+      },
+      "KP082": {
+        "en": "understand that when a source of sound waves moves relative to a stationary observer, the observed frequency is different from the source frequency (understanding of the Doppler effect for a stationary source and a moving observer is not required)",
+        "cn": "理解声源相对静止观察者运动时观测频率改变（不要求静止声源/运动观察者）",
+        "page": 21,
+        "syllabusRef": "7.3.1"
+      },
+      "KP083": {
+        "en": "use the expression fο = f sv / (v ± vs) for the observed frequency when a source of sound waves moves relative to a stationary observer",
+        "cn": "运用 f₀ = f_s v/(v ± v_s) 计算声源运动时的观测频率",
+        "page": 21,
+        "syllabusRef": "7.3.2"
+      },
+      "KP084": {
+        "en": "state that all electromagnetic waves are transverse waves that travel with the same speed c in free space",
+        "cn": "说明所有电磁波都是横波，在真空中以相同速度 c 传播",
+        "page": 21,
+        "syllabusRef": "7.4.1"
+      },
+      "KP085": {
+        "en": "recall the approximate range of wavelengths in free space of the principal regions of the electromagnetic spectrum from radio waves to γ-rays",
+        "cn": "熟记电磁波谱各主要波段在真空中的近似波长范围",
+        "page": 21,
+        "syllabusRef": "7.4.2"
+      },
+      "KP086": {
+        "en": "recall that wavelengths in the range 400–700 nm in free space are visible to the human eye",
+        "cn": "熟记真空中 400–700 nm 的波长为可见光",
+        "page": 21,
+        "syllabusRef": "7.4.3"
+      },
+      "KP087": {
+        "en": "understand that polarisation is a phenomenon associated with transverse waves",
+        "cn": "理解偏振是与横波相关的现象",
+        "page": 21,
+        "syllabusRef": "7.5.1"
+      },
+      "KP088": {
+        "en": "recall and use Malus’s law (I = I0 cos2θ ) to calculate the intensity of a plane-polarised electromagnetic wave after transmission through a polarising filter or a series of polarising filters (calculation of the effect of a polarising filter on the intensity of an unpolarised wave is not required)",
+        "cn": "熟记并运用马吕斯定律 I = I₀cos²θ 计算偏振片后的光强",
+        "page": 21,
+        "syllabusRef": "7.5.2"
+      },
+      "KP089": {
+        "en": "explain and use the principle of superposition",
+        "cn": "解释并运用叠加原理",
+        "page": 22,
+        "syllabusRef": "8.1.1"
+      },
+      "KP090": {
+        "en": "show an understanding of experiments that demonstrate stationary waves using microwaves, stretched strings and air columns (it will be assumed that end corrections are negligible; knowledge of the concept of end corrections is not required)",
+        "cn": "理解用微波、张紧弦与气柱演示驻波的实验",
+        "page": 22,
+        "syllabusRef": "8.1.2"
+      },
+      "KP091": {
+        "en": "explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+        "cn": "用图解法解释驻波的形成并识别波节与波腹",
+        "page": 22,
+        "syllabusRef": "8.1.3"
+      },
+      "KP092": {
+        "en": "understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+        "cn": "理解如何由波节或波腹的位置确定波长",
+        "page": 22,
+        "syllabusRef": "8.1.4"
+      },
+      "KP093": {
+        "en": "explain the meaning of the term diffraction",
+        "cn": "解释衍射的含义",
+        "page": 22,
+        "syllabusRef": "8.2.1"
+      },
+      "KP094": {
+        "en": "show an understanding of experiments that demonstrate diffraction including the qualitative effect of the gap width relative to the wavelength of the wave; for example diffraction of water waves in a ripple tank",
+        "cn": "理解演示衍射的实验，包括缝宽相对波长的定性影响",
+        "page": 22,
+        "syllabusRef": "8.2.2"
+      },
+      "KP095": {
+        "en": "understand the terms interference and coherence",
+        "cn": "理解干涉与相干两个术语",
+        "page": 22,
+        "syllabusRef": "8.3.1"
+      },
+      "KP096": {
+        "en": "show an understanding of experiments that demonstrate two-source interference using water waves in a ripple tank, sound, light and microwaves",
+        "cn": "理解用水波、声、光与微波演示双源干涉的实验",
+        "page": 22,
+        "syllabusRef": "8.3.2"
+      },
+      "KP097": {
+        "en": "understand the conditions required if two-source interference fringes are to be observed",
+        "cn": "理解观察到双源干涉条纹所需的条件",
+        "page": 22,
+        "syllabusRef": "8.3.3"
+      },
+      "KP098": {
+        "en": "recall and use λ = ax / D for double-slit interference using light",
+        "cn": "熟记并运用双缝干涉公式 λ = ax/D",
+        "page": 22,
+        "syllabusRef": "8.3.4"
+      },
+      "KP099": {
+        "en": "recall and use d sin θ = nλ",
+        "cn": "熟记并运用光栅方程 d sinθ = nλ",
+        "page": 22,
+        "syllabusRef": "8.4.1"
+      },
+      "KP100": {
+        "en": "describe the use of a diffraction grating to determine the wavelength of light (the structure and use of the spectrometer are not included)",
+        "cn": "描述用光栅测定光波长（不含光谱仪的结构与使用）",
+        "page": 22,
+        "syllabusRef": "8.4.2"
+      },
+      "KP101": {
+        "en": "understand that an electric current is a flow of charge carriers",
+        "cn": "理解电流是载流子的流动",
+        "page": 23,
+        "syllabusRef": "9.1.1"
+      },
+      "KP102": {
+        "en": "understand that the charge on charge carriers is quantised",
+        "cn": "理解载流子的电荷是量子化的",
+        "page": 23,
+        "syllabusRef": "9.1.2"
+      },
+      "KP103": {
+        "en": "recall and use Q = It",
+        "cn": "熟记并运用 Q = It",
+        "page": 23,
+        "syllabusRef": "9.1.3"
+      },
+      "KP104": {
+        "en": "use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+        "cn": "对载流导体运用 I = Anvq（n 为载流子数密度）",
+        "page": 23,
+        "syllabusRef": "9.1.4"
+      },
+      "KP105": {
+        "en": "define the potential difference across a component as the energy transferred per unit charge",
+        "cn": "定义元件两端的电势差为单位电荷所转移的能量",
+        "page": 23,
+        "syllabusRef": "9.2.1"
+      },
+      "KP106": {
+        "en": "recall and use V = W / Q",
+        "cn": "熟记并运用 V = W/Q",
+        "page": 23,
+        "syllabusRef": "9.2.2"
+      },
+      "KP107": {
+        "en": "recall and use P = VI, P = I²R and P = V²/R",
+        "cn": "熟记并运用 P = VI、P = I²R 与 P = V²/R",
+        "page": 23,
+        "syllabusRef": "9.2.3"
+      },
+      "KP108": {
+        "en": "define resistance",
+        "cn": "定义电阻",
+        "page": 23,
+        "syllabusRef": "9.3.1"
+      },
+      "KP109": {
+        "en": "recall and use V = IR",
+        "cn": "熟记并运用 V = IR",
+        "page": 23,
+        "syllabusRef": "9.3.2"
+      },
+      "KP110": {
+        "en": "sketch the I–V characteristics of a metallic conductor at constant temperature, a semiconductor diode and a filament lamp",
+        "cn": "描绘金属导体（恒温）、半导体二极管与灯丝的 I–V 特性曲线",
+        "page": 23,
+        "syllabusRef": "9.3.3"
+      },
+      "KP111": {
+        "en": "explain that the resistance of a filament lamp increases as current increases because its temperature increases",
+        "cn": "解释灯丝电阻随电流增大而升高是因为温度升高",
+        "page": 23,
+        "syllabusRef": "9.3.4"
+      },
+      "KP112": {
+        "en": "state Ohm’s law",
+        "cn": "表述欧姆定律",
+        "page": 23,
+        "syllabusRef": "9.3.5"
+      },
+      "KP113": {
+        "en": "recall and use R = ρL / A",
+        "cn": "熟记并运用 R = ρL/A",
+        "page": 23,
+        "syllabusRef": "9.3.6"
+      },
+      "KP114": {
+        "en": "understand that the resistance of a light-dependent resistor (LDR) decreases as the light intensity increases",
+        "cn": "理解光敏电阻 (LDR) 的阻值随光强增大而减小",
+        "page": 23,
+        "syllabusRef": "9.3.7"
+      },
+      "KP115": {
+        "en": "understand that the resistance of a thermistor decreases as the temperature increases (it will be assumed that thermistors have a negative temperature coefficient)",
+        "cn": "理解热敏电阻的阻值随温度升高而减小（假定负温度系数）",
+        "page": 23,
+        "syllabusRef": "9.3.8"
+      },
+      "KP116": {
+        "en": "recall and use the circuit symbols shown in section 6 of this syllabus",
+        "cn": "熟记并运用考纲第 6 节所列的电路符号",
+        "page": 24,
+        "syllabusRef": "10.1.1"
+      },
+      "KP117": {
+        "en": "draw and interpret circuit diagrams containing the circuit symbols shown in section 6 of this syllabus",
+        "cn": "绘制并解读含考纲第 6 节电路符号的电路图",
+        "page": 24,
+        "syllabusRef": "10.1.2"
+      },
+      "KP118": {
+        "en": "define and use the electromotive force (e.m.f.) of a source as energy transferred per unit charge in driving charge around a complete circuit",
+        "cn": "定义并运用电源电动势为驱动电荷绕完整回路时单位电荷所转移的能量",
+        "page": 24,
+        "syllabusRef": "10.1.3"
+      },
+      "KP119": {
+        "en": "distinguish between e.m.f. and potential difference (p.d.) in terms of energy considerations",
+        "cn": "从能量角度区分电动势 (e.m.f.) 与电势差 (p.d.)",
+        "page": 24,
+        "syllabusRef": "10.1.4"
+      },
+      "KP120": {
+        "en": "understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+        "cn": "理解电源内阻对端电压的影响",
+        "page": 24,
+        "syllabusRef": "10.1.5"
+      },
+      "KP121": {
+        "en": "recall Kirchhoff’s first law and understand that it is a consequence of conservation of charge",
+        "cn": "表述基尔霍夫第一定律，并理解它是电荷守恒的结果",
+        "page": 24,
+        "syllabusRef": "10.2.1"
+      },
+      "KP122": {
+        "en": "recall Kirchhoff’s second law and understand that it is a consequence of conservation of energy",
+        "cn": "表述基尔霍夫第二定律，并理解它是能量守恒的结果",
+        "page": 24,
+        "syllabusRef": "10.2.2"
+      },
+      "KP123": {
+        "en": "derive, using Kirchhoff’s laws, a formula for the combined resistance of two or more resistors in series",
+        "cn": "用基尔霍夫定律推导两个及以上电阻串联的合成电阻公式",
+        "page": 24,
+        "syllabusRef": "10.2.3"
+      },
+      "KP124": {
+        "en": "use the formula for the combined resistance of two or more resistors in series",
+        "cn": "运用两个及以上电阻串联的合成电阻公式",
+        "page": 24,
+        "syllabusRef": "10.2.4"
+      },
+      "KP125": {
+        "en": "derive, using Kirchhoff’s laws, a formula for the combined resistance of two or more resistors in parallel",
+        "cn": "用基尔霍夫定律推导两个及以上电阻并联的合成电阻公式",
+        "page": 24,
+        "syllabusRef": "10.2.5"
+      },
+      "KP126": {
+        "en": "use the formula for the combined resistance of two or more resistors in parallel",
+        "cn": "运用两个及以上电阻并联的合成电阻公式",
+        "page": 24,
+        "syllabusRef": "10.2.6"
+      },
+      "KP127": {
+        "en": "use Kirchhoff’s laws to solve simple circuit problems",
+        "cn": "用基尔霍夫定律求解简单电路问题",
+        "page": 24,
+        "syllabusRef": "10.2.7"
+      },
+      "KP128": {
+        "en": "understand the principle of a potential divider circuit",
+        "cn": "理解分压器电路的原理",
+        "page": 24,
+        "syllabusRef": "10.3.1"
+      },
+      "KP129": {
+        "en": "recall and use the principle of the potentiometer as a means of comparing potential differences",
+        "cn": "熟记并运用电位差计比较电势差的原理",
+        "page": 24,
+        "syllabusRef": "10.3.2"
+      },
+      "KP130": {
+        "en": "understand the use of a galvanometer in null methods",
+        "cn": "理解检流计在零示法中的使用",
+        "page": 24,
+        "syllabusRef": "10.3.3"
+      },
+      "KP131": {
+        "en": "explain the use of thermistors and light-dependent resistors in potential dividers to provide a potential difference that is dependent on temperature and light intensity",
+        "cn": "解释用热敏电阻与光敏电阻构成分压器，得到随温度与光强变化的电势差",
+        "page": 24,
+        "syllabusRef": "10.3.4"
+      },
+      "KP132": {
+        "en": "infer from the results of the α-particle scattering experiment the existence and small size of the nucleus",
+        "cn": "由 α 粒子散射实验推断原子核的存在及其体积很小",
+        "page": 25,
+        "syllabusRef": "11.1.1"
+      },
+      "KP133": {
+        "en": "describe a simple model for the nuclear atom to include protons, neutrons and orbital electrons",
+        "cn": "描述含质子、中子与轨道电子的核式原子模型",
+        "page": 25,
+        "syllabusRef": "11.1.2"
+      },
+      "KP134": {
+        "en": "distinguish between nucleon number and proton number",
+        "cn": "区分核子数与质子数",
+        "page": 25,
+        "syllabusRef": "11.1.3"
+      },
+      "KP135": {
+        "en": "understand that isotopes are forms of the same element with different numbers of neutrons in their nuclei",
+        "cn": "理解同位素是质子数相同、中子数不同的同种元素",
+        "page": 25,
+        "syllabusRef": "11.1.4"
+      },
+      "KP136": {
+        "en": "understand and use the notation A Z X for the representation of nuclides",
+        "cn": "理解并运用 ᴬ_Z X 的核素表示法",
+        "page": 25,
+        "syllabusRef": "11.1.5"
+      },
+      "KP137": {
+        "en": "understand that nucleon number and charge are conserved in nuclear processes",
+        "cn": "理解核过程中核子数与电荷守恒",
+        "page": 25,
+        "syllabusRef": "11.1.6"
+      },
+      "KP138": {
+        "en": "describe the composition, mass and charge of α-, β- and γ-radiations (both β– (electrons) and β+ (positrons) are included)",
+        "cn": "描述 α、β、γ 射线的组成、质量与电荷（含 β⁻ 与 β⁺）",
+        "page": 25,
+        "syllabusRef": "11.1.7"
+      },
+      "KP139": {
+        "en": "understand that an antiparticle has the same mass but opposite charge to the corresponding particle, and that a positron is the antiparticle of an electron",
+        "cn": "理解反粒子质量相同、电荷相反，正电子是电子的反粒子",
+        "page": 25,
+        "syllabusRef": "11.1.8"
+      },
+      "KP140": {
+        "en": "state that (electron) antineutrinos are produced during β– decay and (electron) neutrinos are produced during β+ decay",
+        "cn": "说明 β⁻ 衰变产生（电子）反中微子、β⁺ 衰变产生（电子）中微子",
+        "page": 25,
+        "syllabusRef": "11.1.9"
+      },
+      "KP141": {
+        "en": "understand that α-particles have discrete energies but that β-particles have a continuous range of energies because (anti)neutrinos are emitted in β-decay",
+        "cn": "理解 α 粒子能量分立而 β 粒子能量连续，因为 β 衰变中发射（反）中微子",
+        "page": 25,
+        "syllabusRef": "11.1.10"
+      },
+      "KP142": {
+        "en": "represent α- and β-decay by a radioactive decay equation of the form ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂α",
+        "cn": "用形如 ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂α 的方程表示 α 与 β 衰变",
+        "page": 25,
+        "syllabusRef": "11.1.11"
+      },
+      "KP143": {
+        "en": "use the unified atomic mass unit (u) as a unit of mass",
+        "cn": "运用原子质量单位 u 作为质量单位",
+        "page": 25,
+        "syllabusRef": "11.1.12"
+      },
+      "KP144": {
+        "en": "understand that a quark is a fundamental particle and that there are six flavours (types) of quark: up, down, strange, charm, top and bottom",
+        "cn": "理解夸克是基本粒子，共有六种味：上、下、奇、粲、顶、底",
+        "page": 25,
+        "syllabusRef": "11.2.1"
+      },
+      "KP145": {
+        "en": "recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+        "cn": "熟记并运用各味夸克的电荷，并理解其反夸克带相反电荷",
+        "page": 25,
+        "syllabusRef": "11.2.2"
+      },
+      "KP146": {
+        "en": "recall that protons and neutrons are not fundamental particles and describe protons and neutrons in terms of their quark composition",
+        "cn": "熟记质子与中子不是基本粒子，并描述其夸克组成",
+        "page": 25,
+        "syllabusRef": "11.2.3"
+      },
+      "KP147": {
+        "en": "understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+        "cn": "理解强子分为重子（三个夸克）与介子（一个夸克与一个反夸克）",
+        "page": 25,
+        "syllabusRef": "11.2.4"
+      },
+      "KP148": {
+        "en": "describe the changes to quark composition that take place during β– and β+ decay",
+        "cn": "描述 β⁻ 与 β⁺ 衰变中夸克组成的变化",
+        "page": 25,
+        "syllabusRef": "11.2.5"
+      },
+      "KP149": {
+        "en": "recall that electrons and neutrinos are fundamental particles called leptons",
+        "cn": "熟记电子与中微子是称为轻子的基本粒子",
+        "page": 25,
+        "syllabusRef": "11.2.6"
+      }
+    },
+    "chapters": {
+      "1": "物理量与单位",
+      "2": "运动学",
+      "3": "动力学",
+      "4": "力、密度与压强",
+      "5": "功、能量与功率",
+      "6": "固体形变",
+      "7": "波动",
+      "8": "叠加",
+      "9": "电学",
+      "10": "直流电路",
+      "11": "粒子物理"
+    }
+  }
+}
