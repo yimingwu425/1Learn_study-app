@@ -179,7 +179,7 @@ export function BlueCompanion({context, mode = 'self', event, actions, size = 'n
   return <div className={`blue-companion blue-companion--${size}`} data-context={context}>
     <button ref={triggerRef} type="button" className="blue-companion__trigger" aria-label={open ? '收起小蓝学习面板' : '打开小蓝学习面板'} aria-expanded={open} aria-controls={open ? panelId : undefined} aria-haspopup="dialog" onClick={togglePanel} onKeyDown={triggerKeyDown}>
       <span key={reaction?.serial ?? animation} className={`assistant-mark blue-companion__sprite blue-companion__sprite--${animation}`} role="img" aria-label="小蓝" data-animation={animation}/>
-      <span className="blue-companion__caption">{timerState === 'running' ? `专注中 ${time}` : timerState === 'paused' ? `已暂停 ${time}` : timerState === 'finished' ? '10 分钟到了' : '点点小蓝'}</span>
+      {timerState !== 'idle' && <span className="blue-companion__caption">{timerState === 'running' ? `专注中 ${time}` : timerState === 'paused' ? `已暂停 ${time}` : '10 分钟到了'}</span>}
     </button>
     <span className="blue-companion__sr-only" role="status" aria-live="polite">{notice}</span>
     {open && createPortal(<section ref={panelRef} id={panelId} role="dialog" aria-label="小蓝的学习面板" className="blue-companion-panel" style={position} onKeyDown={e => {
